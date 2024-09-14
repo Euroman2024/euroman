@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+        :root {
+    --btn-color: #434343;
+        }
+
+        * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        }
+
+        .body2 {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        flex-direction: column;
+        color: #ffffff;
+        font-family: 'Arial', sans-serif;        
+        padding: 20px;
+        }

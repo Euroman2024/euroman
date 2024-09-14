@@ -1,0 +1,281 @@
+h2{
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+#slider-container {
+    position: flex;
+    top: 0%;
+    left: 0%;
+    transform: translate(-0%, -0%);
+    
+    /* ajusta el ancho según tus necesidades */    
+    /* ajusta la posición vertical según tus necesidades */
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    /* Ajusta los valores según tus preferencias */
+    border-radius: 20px;
+
+  }
+
+  #slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+
+  .slide img {
+    width: 100%;
+    /* Hace que la imagen ocupe el 100% del ancho del contenedor */
+    height: 100%;
+    /* Mantiene la proporción de aspecto original de la imagen */
+    border-radius: 10px;
+  }
+
+  #prevBtn,
+  #nextBtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  #prevBtn {
+    left: 10px;
+  }
+
+  #nextBtn {
+    right: 10px;
+  }
+
+  .contenidoaccesible {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    /* Apila los elementos verticalmente */
+    margin-left: 200px;
+
+  }
+
+  .etiqueta {
+    margin-bottom: 2px;
+  }
+
+  .etiquetacentrada {
+    margin: 0 auto;
+  }
+
+  .imageninicio {
+    order: 1;
+    display: flex;
+    width: 40%;
+    height: 70%;
+
+
+  }
+
+  .imageninicio img {
+    width: 100%;
+    /* La imagen no será más ancha que el contenedor */
+    height: auto;
+    /* La altura se ajustará automáticamente para mantener la proporción original */
+    border-radius: 20px;
+  }
+
+  .textoinicio {
+    font-style: italic;
+    text-shadow: 0 4px 8px rgb(223, 223, 223);
+    /* Ajusta los valores según tus preferencias */
+    background-image: linear-gradient(to right, #007bff, #0056b3);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 16px;
+  }
+
+  .textoinicio2 {
+    text-shadow: 0 4px 8px rgba(234, 235, 239, 0.5);
+    /* Ajusta los valores según tus preferencias */
+    background-image: linear-gradient(to right, #f5f8fb, #ffffff);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 16px;
+
+
+  }
+
+  .textoinicio3 {
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to right, #f5f8fb, #ffffff);
+    text-shadow: 2px 2px 4px rgba(0, 0, 255, 1);
+    /* Ancho y color del "borde" */
+    padding: 10px;
+    /* Espaciado interno para que el "borde" no esté pegado al texto */
+    display: inline-block;
+    /* Para que el tamaño del "borde" se ajuste al texto */
+    font-size: 16px;
+
+  }
+
+  .textoinicio4 {
+    font-style: italic;
+    text-shadow: 1px 1.5px 1px rgb(78, 180, 249);
+    /* Ajusta los valores según tus preferencias */
+    background-image: linear-gradient(to right, #000000, #000000);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 16px;
+  }
+
+  .textoinicio5 {
+    font-style: italic;
+    text-shadow: 0 4px 8px rgb(255, 255, 255);
+    /* Ajusta los valores según tus preferencias */
+    background-image: linear-gradient(to right, #007bff, #0056b3);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 16px;
+  }
+
+  .textoinicio6 {
+    font-style: italic;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    /* Ajusta los valores según tus preferencias */
+    background-image: linear-gradient(to right, #000000, #000000);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 16px;
+    margin-top: -30px;        
+  }
+
+  .textoinicio7 {
+    font-style: italic;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 65px;    
+    /* Ajusta los valores según tus preferencias */
+    background-color: #ffffff;
+    /* Agrega bordes alrededor de cada letra */
+    text-shadow: -2px -2px 0 #3558f6, -1px -1px 0 #f0f3f7, 1px -1px 0 #e7e9f1, -1px 1px 0 #deeaee;
+    /* Ajusta el desplazamiento y color del borde */
+  }
+
+  
+
+  .textoinicio8 {
+    font-style: italic;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 25px;
+    filter: drop-shadow(0 4px 8px rgb(255, 255, 255));
+    /* Ajusta los valores según tus preferencias */
+    background-color: #ffffff;
+    /* Agrega bordes alrededor de cada letra */
+
+    text-shadow: -8px -8px 0 #3498db, -1px -1px 0 #f0f3f7, 1px -1px 0 #e7e9f1, -1px 1px 0 #deeaee;
+    /* Ajusta el desplazamiento y color del borde */
+
+  }
+
+  .imagenini {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+
+  }
+
+  .imagenini img {
+    border-radius: 15px;
+  }
+
+  .bandera {
+    display: flex;
+    margin: 0 auto;
+    height: 150px;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  
+
+  .textobody4 {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 50%;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    
+  }
+  .imagenLiteral{
+    margin-bottom:5px;
+    align-items: center;    
+    display: flex;
+    width: 100px;
+    height: 30px;
+    
+  }
+  .titleLiteral {
+    font-size: 30px;
+    font-weight: 400px;
+}
+
+.descriptionLiteral {
+    text-align: start;
+    font-size: 20px;
+    font-weight: 400px;
+    margin: 0; /* Añadido para eliminar cualquier margen */
+    padding: 0; /* Añadido para eliminar cualquier relleno */
+}
+
+.textoLiteral {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.titleLiteral h2,
+.descriptionLiteral h2,
+.textoLiteral h2 {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    font-weight: inherit;
+}
+  .imagenLiteral img{
+    object-fit: cover;
+    width: 20px;
+    height: 20px;
+  }
+
+  
+  @media screen and (max-width: 767px) {
+    .textoinicio7{
+    font-size: 50px;
+    }   
+    .bandera {    
+      width: 90%;      
+    }
+    .textobody4{
+      width: 80%;
+    }
+    
+    
+  }

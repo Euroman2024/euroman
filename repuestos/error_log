@@ -1,0 +1,3 @@
+[23-May-2024 14:28:45 America/Guayaquil] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'usuario'@'localhost' (using password: YES) in /home/euromane/public_html/repuestos/repuestos.php on line 63
+[23-May-2024 14:28:50 America/Guayaquil] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'usuario'@'localhost' (using password: YES) in /home/euromane/public_html/repuestos/repuestos.php on line 63
+[23-May-2024 14:29:11 America/Guayaquil] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'usuario'@'localhost' (using password: YES) in /home/euromane/public_html/repuestos/repuestos.php on line 63

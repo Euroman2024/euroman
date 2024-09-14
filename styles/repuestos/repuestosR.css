@@ -1,0 +1,244 @@
+.body2{            
+    margin-top: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*background:radial-gradient(circle, rgb(219, 225, 255), rgb(255, 255, 255)) ;*/
+    
+    color: #252525;
+}
+/* Estilos del menú */
+#menu { 
+    float: left;
+    width: 250px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-right: 0px solid #ddd;
+    position: fixed; /* Hace que el menú sea fijo en la página */
+    height: 300px; /* Ocupa toda la altura del viewport */
+    overflow-y: auto; /* Permite desplazarse si el contenido es demasiado largo */        
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-left: 20px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);      
+}
+.titulo-categoria{
+    font-size: 18px;    
+    text-align: center;
+    margin-right: 50px;        
+}
+#menu h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #3c3c3c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#lista-categorias {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;            
+    background-color:#ffffff;  
+}
+#lista-categorias li {
+    padding: 8px 0;
+    cursor: pointer;
+    color: #232323;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#lista-categorias ul:hover {
+    background-color: #d2d2d270;
+}
+#lista-categorias ul:hover {
+    background-color: #ffffff70;
+}
+#lista-categorias li:hover {
+    color: #0748ea;    
+}
+#lista-categorias li li:hover {
+    color: #b2d0ff;
+}
+
+/* Estilos del contenido */
+#contenido {
+    margin-left: 300px; /* Ajusta el margen izquierdo para evitar solapamiento con el menú */
+    padding: 20px;    
+    border-radius: 20px;    
+}
+
+.repuesto {
+    position: relative;
+    border: 1px solid #5e8cff;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #ffff;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 200px;
+    overflow: hidden; /* Evita que los elementos se desborden del contenedor */
+    justify-content: space-between;
+    
+}
+
+.repuesto:hover {
+    background-color: #f0f0f065;
+}
+
+.divr {
+    display: flex;
+    flex: 1;
+    margin-right: 00px;
+    order: 2;
+    height: 30%; /* No permite que el div sobrepase la mitad del ancho del contenedor */
+    max-height: 30%; /* No permite que 
+    la imagen sobrepase la mitad del ancho del contenedor */
+    background-color: #161616;
+    
+}
+.imglr{
+    position: absolute;
+  width: 150px;
+  height: 40px;  
+  z-index: 1; /* Para asegurarse de que esté sobre cualquier otro contenido */
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centra el contenedor interno */
+  
+}
+
+
+.repuesto h3 {
+    margin-right: 00px;
+    font-size: 16px; /* Ajusta el tamaño del texto */
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.repuesto img {
+    object-fit: contain;
+    flex: 1;
+    height: 100%;
+    order: 1;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    height: 70%; /* No permite que la imagen sobrepase la mitad del ancho del contenedor */
+    margin-right: 00px;
+    max-height: 70%; /* No permite que la imagen sobrepase la mitad del ancho del contenedor */
+
+    user-select: none; /* Evita la selección de texto */
+  -webkit-user-drag: none; /* Evita el arrastre de la imagen en navegadores webkit */
+  -webkit-touch-callout: none; /* Desactiva la llamada táctil en dispositivos iOS */
+}
+
+.imglr img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5);
+    opacity: 0.5;
+    
+}
+#rep-d {    
+    display: flex;
+    flex-direction: column;   
+    flex-wrap: wrap;
+}
+
+#detalles-repuesto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    width: 100%;
+}
+
+/*#detalles-repuesto img {    
+    width: 200px;
+    height: 100%;     
+    border-radius: 10px;  
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);  
+    
+}*/
+.subcategorias {
+    display: none; /* Oculta las subcategorías por defecto */
+    margin-left: 10px; /* Ajusta el margen para mostrar jerarquía */
+}
+.precio{
+    display: flex;
+    position: absolute;   
+    top: 0;
+    right: 0;
+    width: 150px; /* Ajusta el ancho del elemento según sea necesario */
+    height: 50px; /* Ajusta la altura del elemento según sea necesario */
+    background-color: rgb(53, 66, 102);
+    clip-path: polygon(12% 0, 100% 0, 100% 100%, 0 100%);
+    /* Define un polígono para el clip-path que crea un corte diagonal */
+    align-items: center;
+    justify-content: end;
+               
+}
+.h2clase{
+    display: flex;
+width: 100%;
+flex-direction: column;
+}
+.precio h6{   
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    color: #ffffff;
+              
+}
+
+/* Agrega reglas específicas para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+    .body2 {
+        margin-top: 50px; /* Reduce el margen superior para dispositivos más pequeños */
+        font-size: 14px; /* Ajusta el tamaño de fuente para una mejor legibilidad en pantallas pequeñas */
+    }
+
+    #menu {
+        width: 90%; /* Ajusta el ancho del menú al 100% del ancho de la pantalla */
+        padding: 10px;
+        border-bottom: 1px solid #ddd; /* Agrega un borde inferior al menú */
+        position: relative; /* Cambia la posición a relativa para que los elementos floten correctamente */
+        margin-top: 50px; /* Ajusta el margen superior del menú */
+        border-radius: 20px; /* Elimina el borde redondeado */
+        margin-bottom: 10px;
+    }
+
+    #lista-categorias {
+        margin: 0;
+        padding: 0;
+    }
+
+    #lista-categorias li {
+        padding: 10px 0;
+        border-bottom: 1px solid #ddd; /* Agrega un borde inferior a cada elemento de la lista */
+    }
+
+    #contenido {
+        margin: 20px 0; /* Ajusta los márgenes superior e inferior */
+        padding: 20px;
+    }
+
+    .precio {
+        position: relative; /* Cambia la posición a relativa para permitir un posicionamiento adecuado */
+        display: flex; /* Utiliza Flexbox para el diseño */
+        align-items: center;
+        justify-content: center; /* Centra el contenido horizontalmente */
+        margin-top: 10px; /* Ajusta el margen superior */
+    }
+
+    .body3{
+        display: flex;
+        flex-direction: column;
+    }
+     .repuesto{
+        width: 190px;
+        height: 230px;
+    }
+    }
+}

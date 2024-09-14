@@ -1,0 +1,43 @@
+footer {
+    width: 100%;
+    display: none;
+    gap: 1.25rem;
+    background-color: rgb(48, 48, 48);;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:30px;
+    
+    font-size: 0.8rem;
+}
+
+footer p {
+    color: white;
+}
+footer img {
+    width: 100px;
+    height: 30px;
+    object-fit: fill;
+}
+footer h3 {
+    color: white;
+}
+
+.contactos {
+    display: grid;
+    border-bottom: solid 1px white;
+    padding-bottom: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    row-gap: 10px;
+}
+
+.contactos span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.slider{
+    margin-bottom:30px;
+}

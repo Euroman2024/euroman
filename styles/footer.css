@@ -1,0 +1,109 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+footer {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    gap: 1.25rem;
+    background-color: rgb(255, 255, 255);;
+    flex-direction: row;
+    color: rgb(66, 66, 66);
+    align-items: start;
+    justify-content: space-between;                
+    font-size: 0.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+@media screen and (max-width: 768px){
+    footer{
+        flex-direction: column;
+    }
+}
+footer p {
+    color: rgb(66, 66, 66);
+    font-size:15px;
+    margin-left:20px;
+    font-weight: bold;
+    margin-block-start: 0em;
+}
+footer img {
+    width: 100px;
+    height: 30px;
+    object-fit: fill;
+}
+footer h3 {
+    color: rgb(66, 66, 66);
+    font-size: 20px;
+    margin-left:20px;
+    font-weight: bold;
+}
+
+.contactos {
+    display: grid;
+    /*border-bottom: solid 1px rgb(66, 66, 66);*/
+    padding-bottom: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    row-gap: 10px;
+    font-weight: bold;
+}
+
+.contactos span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: rgb(66, 66, 66);    
+    margin-left:20px;
+    font-weight: bold;
+    
+}
+.hf{
+    font-size: 15px;
+    margin-bottom: 20px;
+    
+}
+.hf1{
+    font-size: 40px;
+    margin-bottom: 30px;
+    
+}
+.hf2{
+    font-size: 40px;
+}
+.hb{
+    font-size: 20px;
+    color: white;
+}
+.icon-facebook, .icon-tiktok, .icon-instagram,.icon-whatsapp  {
+    font-size: 40px; /* Tama���o del icono */
+    margin: 10px; /* Espaciado entre iconos */
+}
+
+.icon-facebook {
+    color: #006eff; /* Color de Facebook */
+}
+
+.icon-tiktok {
+    color: #000000; /* Color de TikTok */
+}
+
+.icon-instagram {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /*color: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);*/
+}
+.icon-whatsapp {
+    color: #3e3e3e; /* Color de WhatsApp */
+}
+
+
+@media screen and (max-width:768px) {
+    .hf1{
+        font-size: 20px;
+    }
+    .hf2{
+        font-size: 20px;
+    }
+    .hb{
+        display: none;
+    }
+}

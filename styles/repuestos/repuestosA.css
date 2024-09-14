@@ -1,0 +1,113 @@
+body{
+    background: linear-gradient(to right, rgb(0, 0, 0),rgb(45, 45, 45));
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contenido1{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: start;        
+    
+}
+h1{
+    color: rgb(44, 44, 44);
+}
+input{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: rgb(123, 123, 123);
+}
+button{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;    
+    border-color: rgb(0, 89, 255);
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 17, 48);
+    text-align: center;       
+    font-size: 14px;          
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+select{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: rgb(123, 123, 123);
+    color:rgb(255, 255, 255);
+    background-color: rgb(90, 90, 90);
+}
+.agregarCategoria{
+    display: flex;
+    width: 500px;
+    
+    background: radial-gradient(circle, rgb(255, 255, 255), rgb(136, 136, 136));    
+    flex-direction: column;        
+    margin: 20px; /* Espacio vertical dentro del contenedor */
+    justify-content: center;    
+    align-items: center;    
+    border-radius: 20px;
+}
+.agregarRepuesto{
+    display: flex;
+    width: 1040px;
+    
+    background: radial-gradient(circle, rgb(255, 255, 255), rgb(136, 136, 136));    
+    flex-direction: column;        
+    margin: 20px; /* Espacio vertical dentro del contenedor */
+    justify-content: center;    
+    align-items: center;    
+    border-radius: 20px;
+}
+.agR{
+    display: flex;
+    flex-direction: column;                
+}
+.agR > * {
+    margin-left: 20px; /* Espacio vertical entre etiquetas dentro del contenedor */
+  }
+.imgAR{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    margin-left: 20px;        
+}
+.imgAR input{
+    margin-right: 20px;            
+
+}
+.agR label{
+    margin-right: 30px;        
+}
+.agR textarea{
+    width: 90%;
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 20px;    
+    
+}
+.agregarCategoria > * {
+    margin-bottom: 20px; /* Espacio vertical entre etiquetas dentro del contenedor */
+  }
+
+.man{
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    width: 300px;
+    height: 200px;
+    z-index: 1000;
+    position: fixed;
+
+}
+.man img{
+    width: 100%;
+    height: 100%;    
+    object-fit: fill;
+}
+.bcl{
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+

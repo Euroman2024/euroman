@@ -1,0 +1,336 @@
+:root {
+    --border: #dfdfdf;
+    --background-element: #ffffff;
+    --red-bg: #ad272e;
+    --font-c-materias: #A31300;
+    --font-c-subtitle: #a39c9c;
+    --white: white;
+    --black: black;
+}
+
+
+ul {
+    list-style: none;
+}
+
+svg.bi {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+svg.bell {
+    width: 18px;
+    height: 18px;
+}
+
+/* #region Header */
+
+header {
+    align-items: normal;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+header img {
+    width: 25px;
+    height: 25px;
+}
+
+header p {
+    color: var(--white);
+    font-size: 0.8rem;
+}
+
+.usuario {
+    height: 7vh;
+    position: relative;
+    padding: 10px 30px;
+    background-color: var(--background-element);
+    display: flex;
+    user-select: none;
+    justify-content: flex-end;
+    --clip_menu: polygon(0 0, 100% 0, 100% 0, 0 0);
+    --arrow_transform: rotate(0);
+}
+
+.usuario .bi-person-circle {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+}
+
+.user_interface {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.menu_hamburguer {
+    height: 100%;
+    display: none;
+    cursor: pointer;
+    align-items: center;
+}
+
+.menu_hamburguer img {
+    display: block;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.bi-caret-right-fill {
+    transform: var(--arrow_transform);
+    transition: transform 0.2s;
+}
+
+.user_menu {
+    clip-path: var(--clip_menu);
+    position: absolute;
+    top: 100%;
+    right: 30px;
+    display: flex;
+    background-color: var(--white);
+    flex-direction: column;
+    border: solid 1px #dfdfdf;
+    min-width: 9rem;
+    transition: clip-path .2s;
+}
+
+.user_menu a {
+    display: flex;
+    align-items: center;
+    gap: .625rem;
+    font-size: 0.8rem;
+    color: var(--black);
+    text-decoration: none;
+    padding: 0.6rem 0.65rem;
+}
+
+.user_menu a:hover {
+    background-color: #eeeeee;            
+    transition: 0.2s;
+}
+
+.carrer_title {
+    height: 75%;
+    display: flex;
+    gap: 40px;
+    background-color: var(--red-bg);
+    padding: 20px 16px;
+}
+
+.carrer_title h1 {
+    align-self: center;
+}
+
+.carrer_title img {
+    width: 90px;
+    height: 90px;
+}
+
+.usuario.active {
+    --clip_menu: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    --arrow_transform: rotate(90deg);
+}
+
+/* #endregion  */
+
+/* #region Navbar */
+
+nav {
+    position: fixed; /* Fija la posición en la ventana del navegador */
+    top: 0; /* Coloca el nav en la parte superior */
+    width: 100%; /* Ocupa todo el ancho de la ventana */
+    background-color: #ffffff; /* Color de fondo */
+    padding: 10px; /* Añade espacio interno para mejor apariencia */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para efecto de elevación */
+    z-index: 1000; /* Asegura que el nav esté por encima de otros elementos */
+}        
+
+
+.menu_container {
+    display: flex;
+    align-items: center; /* Cambiado a centrar verticalmente */
+    background-color: var(--background-element);
+    justify-content: flex-end; /* Cambiado a espacio entre elementos */
+    padding: 10px; /* Agregado un poco de relleno para separar el logo y los elementos del menú */
+}
+.menu_container a {
+    color:  rgb(108, 108, 108);            
+    text-decoration: none;
+    font-size: 12px;
+}
+.menu_container a:hover {
+    color: #0062a3;           
+    
+}
+
+.menu_item {
+    position: relative;
+    transition: .2s;
+    --clip: polygon(0 0, 100% 0, 100% 0, 0 0);
+    --transform: rotate(-90deg);
+}
+
+.menu_item:hover {
+    --clip: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    --transform: rotate(0);
+    background-color: #ffffff;/*FONDO AL PASAR EL MOUSE POR  UNA DE LAS OPCIONES DEL MENU*/
+}
+
+.menu_link {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 12px 16px;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.menu_item--show .menu_arrow {
+    transform: var(--transform);
+    transition: transform 0.2s;
+}
+
+.menu_nesting {
+    background-color: var(--white);
+    border: solid 1px #dfdfdf;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translateY(100%);
+    clip-path: var(--clip);
+    transition: clip-path .2s;
+    width: 100%;
+    z-index: 1;
+    color: var(--black);
+}
+
+.menu_inside {
+    cursor: pointer;
+}
+
+.menu_inside a {
+    color:  rgb(108, 108, 108);
+    padding: 10px 10px;
+    font-size: .875rem;
+}
+
+.menu_inside:hover {
+    background-color: #f8f9fa;
+}
+
+/* #endregion */
+
+/* #region Main */
+
+
+
+/* #endregion */
+
+/* #region Footer */
+
+footer {
+    width: 100%;
+    display: flex;
+    gap: 1.25rem;
+    background-color: var(--red-bg);
+    flex-direction: column;
+    padding: 1.25rem;
+    font-size: 0.8rem;
+}
+
+footer p {
+    color: var(--white);
+}
+
+.contactos {
+    display: grid;
+    border-bottom: solid 1px var(--white);
+    padding-bottom: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    row-gap: 10px;
+}
+
+.contactos span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* #endregion */
+
+/* #region Media Queris */
+
+@media (width < 600px) {
+    .usuario {
+        justify-content: space-between;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .menu_hamburguer {
+        display: flex;
+    }
+
+    .carrer_title {
+        padding-top: calc(7vh + 20px);
+    }
+
+    .user_menu {
+        right: 0;
+    }
+
+    .menu_container {
+        position: fixed;
+        top: 7vh;
+        bottom: 0;
+        max-width: 300px;
+        width: 100%;
+        display: grid;
+        grid-auto-rows: max-content;
+        z-index: 1;
+        transform: translateX(-100%);
+        transition: transform .5s;
+    }
+
+    .menu_container--show {
+        transform: translateX(0);
+    }
+
+    .menu_item {
+        --clip: 0;
+        overflow: hidden;
+    }
+
+    .menu_link {
+        padding: 15px 0 15px 25px;
+        height: auto;
+    }
+
+    .menu_arrow {
+        margin-left: auto;
+        margin-right: 20px;
+    }
+
+    .menu_nesting {
+        display: grid;
+        position: unset;
+        transform: translateY(0);
+        transition: height .3s;
+        border: 0;
+        height: 0;
+    }
+}
+
+/* #endregion */
