@@ -336,7 +336,7 @@
 						</p>
 					</div>
 					<div class="loldiv">
-						<img src="./carpetaeuromanimagenes/inicio/catalogo2/bombaAgua-2866.jpg" alt="">				
+						<img src="./carpetaeuromanimagenes/inicio/catalogo2/bombaAgua-d2866.avif" alt="">				
 						<p>Descripcion<br>
 						Nombre: Bomba de agua<br>
 						Tipo: D2866 / D2876							
@@ -347,9 +347,9 @@
 
 
 				<div class="element2">
-					<p>MULTIPLE DE ADMISION</p>
+					<p>MULTIPLE DE ADMISION Y ESCAPE</p>
 				</div>
-				<div class="lol" id="MULTIPLE DE ADMISION1">
+				<div class="lol" id="MULTIPLE DE ADMISION Y ESCAPE1">
 					<div class="loldiv">
 						<img src="./carpetaeuromanimagenes/inicio/catalogo2/filtroAire-2066.jpeg" alt="">				
 						<p>Descripcion<br>
@@ -386,9 +386,9 @@
 
 
 				<div class="element2">
-					<p>TURBO DE COMPRESORES</p>
+					<p>TURBOCOMPRESORES</p>
 				</div>
-				<div class="lol" id="TURBO DE COMPRESORES1">
+				<div class="lol" id="TURBOCOMPRESORES1">
 					<div class="loldiv">
 						<img src="./carpetaeuromanimagenes/inicio/catalogo2/turboCompresores-d2066.avif" alt="">				
 						<p>Descripcion<br>
@@ -415,6 +415,13 @@
 						<p>Descripcion<br>
 						Nombre: Turbocompresor<br>
 						Tipo: K29					
+						</p>
+					</div>
+					<div class="loldiv">
+						<img src="./carpetaeuromanimagenes/inicio/catalogo2/turboCompresor-k31.jpg" alt="">				
+						<p>Descripcion<br>
+						Nombre: Turbocompresor<br>
+						Tipo: K31 (con valvula)				
 						</p>
 					</div>
 				</div>
@@ -491,7 +498,7 @@
 				<div class="element2">
 					<p>SISTEMA ELECTRICO</p>
 				</div>
-				<div class="lol"style="justify-content:center;" id="SISTEMA ELECTRICO1">
+				<div class="lol"style="justify-content:center;" id="SISTEMA ELECTRICO1">					
 					<div class="loldiv2" >
 						<img src="./carpetaeuromanimagenes/inicio/sensores/sensores.png" alt="">
 					</div>					
