@@ -47,7 +47,7 @@
         
         <section class="sectionvision animated">
             <h5 class="h20">TGA 33.480</h5>
-            <p class="green">DISPONIBLE</p>
+            <p class="red">VENDIDO</p>
             <div class="imagen-centrada">            
             <img src="../carpetaeuromanimagenes/seminuevos/producto3/tga2.jpeg" alt="Descripcion de la imagen">
             </div>

@@ -192,7 +192,30 @@ p{
     margin-left: 20px;  
     
 }
+.sectionOriginal3 .sectionO33 .element22{
+    margin-top: 20px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: start;
+    height: 50px;
+    width: 23%;       
+    /*background-color: #dc3545;   */  
+    border-radius: 10px;
+    color: white;
+    font-size: 2rem;    
+    flex-direction: column;
+    border: 2px solid white;  
+    margin-left: 20px;  
+    
+}
 .sectionOriginal3 .sectionO33 .element2 p{
+    margin-left: 20px;    
+    /*font-size: medium;*/
+    font-size: 10px;
+    color: white;
+}
+.sectionOriginal3 .sectionO33 .element22 p{
     margin-left: 20px;    
     /*font-size: medium;*/
     font-size: 10px;
@@ -229,6 +252,15 @@ p{
     color: white;  
 }
 .Cabina .element2{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    /*border: 2px solid white;*/
+}
+.Cabina .element22{
     display: flex;
     width: 100%;
     height: 200px;
@@ -329,6 +361,17 @@ p{
         height: 30px;
     }
     .sectionOriginal3 .sectionO33 .element2 p{
+        font-size: 7px;
+        margin-left: 5px;
+    }
+    .element22 p{
+        font-size: 7px;
+        margin-left: 0px;
+    }
+    .sectionOriginal3 .sectionO33 .element22{
+        height: 30px;
+    }
+    .sectionOriginal3 .sectionO33 .element22 p{
         font-size: 7px;
         margin-left: 5px;
     }
