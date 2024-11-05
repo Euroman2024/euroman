@@ -663,7 +663,7 @@
 				</div>
 				<div class="lol" id="PUERTA1">
 					<div class="loldiv">
-						<img src="./carpetaeuromanimagenes/inicio/cabina/puertas.png" alt="">
+						<img src="./carpetaeuromanimagenes/inicio/cabina/puertas.png" alt="PUERTAS">
 						<div class="loldivazul">
 							<p>Descripcion<br>
 								Nombre: Puertas<br>
@@ -672,7 +672,7 @@
 						</div>
 					</div>
 					<div class="loldiv">
-						<img src="./carpetaeuromanimagenes/inicio/cabina/visagras.png" alt="">
+						<img src="./carpetaeuromanimagenes/inicio/cabina/visagras.png" alt="vISAGRAS">
 						<div class="loldivazul">
 							<p>Descripcion<br>
 								Nombre: Visagras<br>
@@ -686,7 +686,7 @@
 				</div>
 				<div class="lol" id="TRAMPILLAS FRONTALES1">
 					<div class="loldiv">
-						<img src="./carpetaeuromanimagenes/inicio/cabina/trampillatga.jpg" alt="">
+						<img src="./carpetaeuromanimagenes/inicio/cabina/trampillatga.jpg" alt="trampillaTGA">
 						<div class="loldivazul">
 							<p>Descripcion<br>
 								Nombre: Trampilla frontal<br>
@@ -695,19 +695,27 @@
 						</div>
 					</div>
 					<div class="loldiv">
-						<img src="./carpetaeuromanimagenes/inicio/cabina/trampillatgs.jpg" alt="">
+						<img src="./carpetaeuromanimagenes/inicio/cabina/trampillatgs.jpg" alt="trampillaTGS">
 						<div class="loldivazul">
-							<p>Descripcion<br>
+							<p class="titteD">Descripcion<br>
 								Nombre: Trampilla frontal<br>
 								Tipo: TGS
 							</p>
 						</div>
 					</div>							
 				</div>
-				<div class="element2">
-					<p>Repuesto - Cabina</p>
-
+				<div class="element22">
+					<p>PROXIMO</p>
 				</div>
+				<div class="lol" id="PROXIMO1">
+					<div class="loldiv">
+						<img src="" alt="">
+						<div class="loldivazul">
+
+						</div>
+					</div>
+				</div>
+
 				<div class="element2">
 					<p>Repuesto - Cabina</p>
 
@@ -1058,6 +1066,15 @@
 				}
 			});
 		});
+	</script>
+	<script>
+		var titleD= document.querySelectorAll('tittleD');
+
+		titleD.style.display = 'flex';
+		titleD.style.color = 'red';		
+		titleD.style.margin = '0 auto';
+
+
 	</script>
 
 	<!--<script src="./scripts/repuestos/all_inicio_repuestos.js"></script>-->
