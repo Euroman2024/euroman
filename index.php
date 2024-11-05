@@ -637,7 +637,6 @@
 				</div>
 				<div class="element22">
 					<p>ESPEJORETROVISORES</p>
-
 				</div>
 				<div class="lol" id="ESPEJORETROVISORES1">
 					<div class="loldiv">
@@ -659,11 +658,51 @@
 						</div>
 					</div>
 				</div>
-				<div class="element2">
-					<p>Repuesto - Cabina</p>
+				<div class="element22">
+					<p>PUERTA</p>
 				</div>
-				<div class="element2">
-					<p>Repuesto - Cabina</p>
+				<div class="lol" id="PUERTA1">
+					<div class="loldiv">
+						<img src="./carpetaeuromanimagenes/inicio/cabina/puertas.png" alt="">
+						<div class="loldivazul">
+							<p>Descripcion<br>
+								Nombre: Puertas<br>
+								Tipo: Izquierda/Derecha
+							</p>
+						</div>
+					</div>
+					<div class="loldiv">
+						<img src="./carpetaeuromanimagenes/inicio/cabina/visagras.png" alt="">
+						<div class="loldivazul">
+							<p>Descripcion<br>
+								Nombre: Visagras<br>
+								Tipo: Superior/Inferior
+							</p>
+						</div>
+					</div>					
+				</div>
+				<div class="element22">
+					<p>TRAMPILLAS FRONTALES</p>
+				</div>
+				<div class="lol" id="TRAMPILLAS FRONTALES1">
+					<div class="loldiv">
+						<img src="./carpetaeuromanimagenes/inicio/cabina/trampillatga.jpg" alt="">
+						<div class="loldivazul">
+							<p>Descripcion<br>
+								Nombre: Trampilla frontal<br>
+								Tipo: TGA
+							</p>
+						</div>
+					</div>
+					<div class="loldiv">
+						<img src="./carpetaeuromanimagenes/inicio/cabina/trampillatgs.jpg" alt="">
+						<div class="loldivazul">
+							<p>Descripcion<br>
+								Nombre: Trampilla frontal<br>
+								Tipo: TGS
+							</p>
+						</div>
+					</div>							
 				</div>
 				<div class="element2">
 					<p>Repuesto - Cabina</p>
