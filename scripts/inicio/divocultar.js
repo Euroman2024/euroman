@@ -102,8 +102,7 @@ if (anchoPantalla <= 767) {
 
     });
 } else {
-    document.addEventListener('DOMContentLoaded', function () {
-        // Espera a que el DOM esté completamente cargado
+    document.addEventListener('DOMContentLoaded', function () {        
 
 
         //DIV 1

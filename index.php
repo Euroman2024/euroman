@@ -87,10 +87,10 @@
 
 				<div class="imagenini3" onclick="redirigiropcion3()" id="imagenRepuestos">
 					<img class="active" src="./carpetaeuromanimagenes/inicio/op33.jpg" alt="nA">
-					<img src="./carpetaeuromanimagenes/inicio/opslide333.jpg" alt="Slide 5">
-
-
+					<!--<img src="./carpetaeuromanimagenes/inicio/opslide333.jpg" alt="Slide 5">-->
+					<img src="./carpetaeuromanimagenes/inicio/op3T.avif" alt="">
 					<img src="./carpetaeuromanimagenes/inicio/opslide3.jpg" alt="Slide 2">
+
 					<!--<img src="./carpetaeuromanimagenes/inicio/opslide33.jpg" alt="Slide 3">-->
 				</div>
 				<div class="imagenini4" onclick="redirigiropcion4()" id="imagenServicios">
@@ -685,7 +685,10 @@
 					<p>TRAMPILLAS FRONTALES</p>
 				</div>
 				<div class="lol" id="TRAMPILLAS FRONTALES1">
-					<div class="loldiv">
+					<div style="display:flex;width:90%;height:500px;background-color:white;margin:0 auto;margin-top:40px;margin-bottom:40px;border-radius:20px;">
+						<img style="width:100%;height:100%;object-fit:fill;" src="./carpetaeuromanimagenes/inicio/cabina/tgs.jpg" alt="">
+					</div>
+				<!--<div class="loldiv">
 						<img src="./carpetaeuromanimagenes/inicio/cabina/trampillatga.jpg" alt="trampillaTGA">
 						<div class="loldivazul">
 							<p>Descripcion<br>
@@ -702,27 +705,9 @@
 								Tipo: TGS
 							</p>
 						</div>
-					</div>							
-				</div>
-				<div class="element22">
-					<p>PROXIMO</p>
-				</div>
-				<div class="lol" id="PROXIMO1">
-					<div class="loldiv">
-						<img src="" alt="">
-						<div class="loldivazul">
-
-						</div>
-					</div>
-				</div>
-
-				<div class="element2">
-					<p>Repuesto - Cabina</p>
-
-				</div>
-				<div class="element2">
-					<p>Repuesto - Cabina</p>
-				</div>
+					</div>-->							
+				</div>				
+				
 			</div>
 			<div class="sectionO33 chasisOrigen" id="chasisDiv">
 				<div class="catalogo">
