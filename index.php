@@ -679,7 +679,7 @@
 								Tipo: Superior/Inferior
 							</p>
 						</div>
-					</div>					
+					</div>
 				</div>
 				<div class="element22">
 					<p>TRAMPILLAS FRONTALES</p>
@@ -688,7 +688,7 @@
 					<div style="display:flex;width:90%;height:500px;background-color:white;margin:0 auto;margin-top:40px;margin-bottom:40px;border-radius:20px;">
 						<img style="width:100%;height:100%;object-fit:fill;" src="./carpetaeuromanimagenes/inicio/cabina/tgs.jpg" alt="">
 					</div>
-				<!--<div class="loldiv">
+					<!--<div class="loldiv">
 						<img src="./carpetaeuromanimagenes/inicio/cabina/trampillatga.jpg" alt="trampillaTGA">
 						<div class="loldivazul">
 							<p>Descripcion<br>
@@ -705,22 +705,32 @@
 								Tipo: TGS
 							</p>
 						</div>
-					</div>-->							
-				</div>				
-				
+					</div>-->
+				</div>
+
 			</div>
 			<div class="sectionO33 chasisOrigen" id="chasisDiv">
 				<div class="catalogo">
 					<p class="catalogo-white">CATALOGO</p>
 				</div>
-				<div class="element2">
-					<p>Repuesto - Chasis</p>
+				<div class="element222">
+					<p>SISTEMA DE ENFRIAMIENTO</p>
 				</div>
-				<div class="element2">
-					<p>Repuesto - Chasis</p>
+				<div class="lol" id="SISTEMA DE ENFRIAMIENTO1">
+					<div style="display:flex;width:90%;height:500px;background-color:white;margin:0 auto;margin-top:40px;margin-bottom:40px;border-radius:20px;">
+						<img style="width:100%;height:100%;object-fit:fill;" src="./carpetaeuromanimagenes/inicio/chasis/sistemarefrigeracion.jpg" alt="">
+					</div>
+				</div>
+				<div class="element222">
+					<p>SISTEMA DE COMBUSTIBLE 2</p>
+				</div>				
+				<div class="lol" id="SISTEMA DE COMBUSTIBLE 21">
+					<div style="display:flex;width:90%;height:500px;background-color:white;margin:0 auto;margin-top:40px;margin-bottom:40px;border-radius:20px;">
+						<img style="width:100%;height:100%;object-fit:fill;" src="./carpetaeuromanimagenes/inicio/chasis/sistemadecombustible.jpg" alt="">
+					</div>
+				</div>
 
-				</div>
-				<div class="element2">
+				<div class="element222">
 					<p>Repuesto - Chasis</p>
 
 				</div>
@@ -971,6 +981,8 @@
 
 		let motorOpciones = document.querySelectorAll('.element2');
 		let motorOpciones2 = document.querySelectorAll('.element22');
+		let motorOpciones222 = document.querySelectorAll('.element222');
+
 
 		// Array con diferentes valores de clip-path
 		const clipPaths = [
@@ -1051,15 +1063,59 @@
 				}
 			});
 		});
+
+
+
+
+
+
+
+
+
+
+
+
+		motorOpciones222.forEach((mottor, index) => {
+			mottor.addEventListener("click", function() {
+				let motorP = this.querySelector('p');
+				let block = document.getElementById(motorP.innerText + '1');
+
+				if (block) {
+					// Asigna un clip-path al block basado en el índice
+					block.style.clipPath = clipPaths[index % clipPaths.length];
+
+					let blockState = block.style.display;
+
+					// Oculta todos los demás blocks
+					motorOpciones222.forEach(otherMotor => {
+						let otherMotorP = otherMotor.querySelector('p');
+						let otherBlock = document.getElementById(otherMotorP.innerText + '1');
+						if (otherBlock) {
+							otherBlock.style.display = 'none';
+						}
+					});
+
+					// Muestra/oculta el block actual
+					block.style.display = blockState;
+					if (block.style.display === 'flex') {
+						block.style.display = 'none';
+						console.log("desaparezco");
+					} else {
+						block.style.display = 'flex';
+						console.log("aparezco");
+					}
+				} else {
+					console.log('El elemento con id ' + motorP.innerText + ' no existe');
+				}
+			});
+		});
 	</script>
 	<script>
-		var titleD= document.querySelectorAll('tittleD');
+		/*var titleD = document.querySelectorAll('tittleD');
 
 		titleD.style.display = 'flex';
-		titleD.style.color = 'red';		
-		titleD.style.margin = '0 auto';
-
-
+		titleD.style.color = 'red';
+		titleD.style.margin = '0 auto';*/
 	</script>
 
 	<!--<script src="./scripts/repuestos/all_inicio_repuestos.js"></script>-->
