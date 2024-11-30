@@ -12,7 +12,6 @@
 	<link rel="stylesheet" href="./styles/whatsapp.css">
 	<link rel="stylesheet" href="./styles/repuestos/repuestosInicio.css">
 	<link rel="stylesheet" href="./styles/inicio/inicioOriginal.css">
-
 	<link rel="stylesheet" href="./styles/footer.css">
 	<link rel="stylesheet" href="./styles/inicio/inicio6.css">
 	<style>
@@ -27,12 +26,12 @@
 
 </head>
 
-<body" class="cuerpo">
+<body class="cuerpo">
 	<div class="background">
-		<div class="bubble"></div>
-		<div class="bubble"></div>
-		<div class="bubble"></div>
-		<div class="bubble"></div>
+		<div class="bubble"><img src="./carpetaeuromanimagenes/inicio/logoblanco.png" alt=""></div>
+		<div class="bubble"><img src="./carpetaeuromanimagenes/inicio/logoblanco.png" alt=""></div>
+		<div class="bubble"><img src="./carpetaeuromanimagenes/inicio/logoblanco.png" alt=""></div>
+		<div class="bubble"><img src="./carpetaeuromanimagenes/inicio/logoblanco.png" alt=""></div>
 
 	</div>
 
@@ -63,12 +62,7 @@
 			</ul>
 		</div>
 
-
-
-
 		<div class="xdbody2" style="margin-bottom:20px;" id="divA">
-
-
 			<div class="opciones">
 
 				<div class="imagenini1" onclick="redirigiropcion1()" id="imagenNuevos">
@@ -983,13 +977,12 @@
 		let motorOpciones2 = document.querySelectorAll('.element22');
 		let motorOpciones222 = document.querySelectorAll('.element222');
 
-
-		// Array con diferentes valores de clip-path
+		
 		const clipPaths = [
-			'polygon(10% 0, 14% 0, 14% 4%, 100% 4%, 100% 100%, 0 100%, 0 61%, 0 46%, 0 4%, 10% 4%)', // Rectángulo
-			'polygon(34% 0, 38% 0, 38% 4%, 100% 4%, 100% 100%, 0 100%, 0 61%, 0 46%, 0 4%, 34% 4%)', // Rombo
-			'polygon(58% 0, 62% 0, 62% 4%, 100% 4%, 100% 100%, 0 100%, 0 61%, 0 46%, 0 4%, 58% 4%)', // Triángulo
-			'polygon(84% 0, 88% 0, 88% 4%, 100% 4%, 100% 100%, 0 100%, 0 61%, 0 46%, 0 4%, 84% 4%)' // Círculo
+			'polygon(10% 0, 14% 0, 14% 4%, 100% 4%, 100% 100%, 0 100%, 0 61%, 0 46%, 0 4%, 10% 4%)', // 1
+			'polygon(34% 0, 38% 0, 38% 4%, 100% 4%, 100% 100%, 0 100%, 0 61%, 0 46%, 0 4%, 34% 4%)', // 2
+			'polygon(58% 0, 62% 0, 62% 4%, 100% 4%, 100% 100%, 0 100%, 0 61%, 0 46%, 0 4%, 58% 4%)', // 3
+			'polygon(84% 0, 88% 0, 88% 4%, 100% 4%, 100% 100%, 0 100%, 0 61%, 0 46%, 0 4%, 84% 4%)' // 4
 		];
 
 		motorOpciones.forEach((mottor, index) => {

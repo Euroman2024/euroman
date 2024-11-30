@@ -28,43 +28,48 @@
 		.bubble {
 			position: absolute;
 			bottom: -50px;
-			background-color: rgba(255, 255, 255, 0.5);
+			/*background-color: rgba(255, 255, 255, 0.5);*/
 			border-radius: 50%;
 			opacity: 0;
 			animation: rise 10s infinite;
 		}
+		.bubble img{
+			height: 100%;
+			width: 100%;
+			object-fit: contain;						
+		}
 
 		.bubble:nth-child(1) {
-			width: 40px;
-			height: 40px;
+			width: 100px;
+			height: 100px;
 			left: 20%;
 			animation-delay: 0s;
 		}
 		
 		.bubble:nth-child(2) {
-			width: 60px;
-			height: 60px;
+			width: 150px;
+			height: 150px;
 			left: 40%;
 			animation-delay: 2s;
 		}
 
 		.bubble:nth-child(3) {
-			width: 50px;
-			height: 50px;
+			width: 200px;
+			height: 200px;
 			left: 60%;
 			animation-delay: 4s;
 		}
 
 		.bubble:nth-child(4) {
-			width: 80px;
-			height: 80px;
+			width: 250px;
+			height: 250px;
 			left: 80%;
 			animation-delay: 6s;
 		}
 
 		.bubble:nth-child(5) {
-			width: 40px;
-			height: 40px;
+			width: 100px;
+			height: 100px;
 			left: 100%;
 			animation-delay: 8s;
 		}
