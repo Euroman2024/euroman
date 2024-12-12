@@ -40,7 +40,7 @@
         .repuesto {
             cursor: default;
         }
-        @media screen (max-width: 767px) {
+        @media screen and (max-width: 767px) {
             /* Ajusta según sea necesario */
             .buscarRepuestos{
                 width: 90%;
@@ -81,7 +81,8 @@
     <?php include "../templates/footer.php";?> 
     
     <script src="../scripts/repuestos/all_sripts_repuestos.js"></script>
-    
+    <script src="../scripts/menu.js"></script>
+    <script src="../scripts/whatsapp.js"></script>
     
 </body>
 </html>

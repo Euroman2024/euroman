@@ -39,7 +39,7 @@
         .repuesto {
             cursor: default;
         }
-        @media screen (max-width: 767px) {
+        @media screen and (max-width: 767px) {
             /* Ajusta según sea necesario */
         }
         p {
@@ -76,6 +76,8 @@
     <?php include "../templates/whatsapp.php";?>
     <?php include "../templates/footer.php";?> 
     <script src="../scripts/repuestos/all_sripts_repuestos_cabina.js"></script>
+    <script src="../scripts/menu.js"></script>
+    <script src="../scripts/whatsapp.js"></script>
     
     
 </body>
