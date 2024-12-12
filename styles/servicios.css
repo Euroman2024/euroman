@@ -1,0 +1,206 @@
+/*
+BURBUJAS EUROMAN
+*/
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -3;
+    background: radial-gradient(circle, rgba(20, 30, 48, 1) 0%, rgba(36, 59, 85, 1) 100%);
+    overflow: hidden;
+    
+}
+
+.bubble {
+    position: absolute;
+    bottom: -50px;
+    
+    border-radius: 50%;
+    opacity: 0;
+    animation: rise 10s infinite;
+}
+.bubble img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;						
+}
+
+.bubble:nth-child(1) {
+    width: 100px;
+    height: 100px;
+    left: 20%;
+    animation-delay: 0s;
+}
+
+.bubble:nth-child(2) {
+    width: 150px;
+    height: 150px;
+    left: 40%;
+    animation-delay: 2s;
+}
+
+.bubble:nth-child(3) {
+    width: 200px;
+    height: 200px;
+    left: 60%;
+    animation-delay: 4s;
+}
+
+.bubble:nth-child(4) {
+    width: 250px;
+    height: 250px;
+    left: 80%;
+    animation-delay: 6s;
+}
+
+.bubble:nth-child(5) {
+    width: 100px;
+    height: 100px;
+    left: 100%;
+    animation-delay: 8s;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding-top: 20%;
+    color: white;
+    height: 2000px;
+}
+
+@keyframes rise {
+    0% {
+        transform: translateY(100vh);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(-100vh);
+        opacity: 0;
+    }
+}
+
+
+/*
+
+SERVICIOS
+
+
+*/
+    *{  
+        margin: 0;
+        text-decoration: none;
+        
+    }
+
+.body2{
+    font-family: Arial, sans-serif;
+    background-color: #041b4300;
+    margin: 0px;
+    margin-top:110px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    flex-wrap: wrap;   
+}
+
+.principal{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.tittle{
+    display: flex;            
+    justify-content: center;
+    width: 100%;
+
+}
+.second-1{
+    display: flex;
+    background-color: #041b4300;
+    width: 80%;            
+    flex-direction: row;
+    margin-bottom: 10px; 
+    margin-top: 30px;         
+}
+h1{              
+    color: rgb(255, 255, 255);              
+}
+
+
+.third-1{
+    display: flex;
+    width: 30%;            
+
+}
+.third-1 img{
+    display: flex;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    object-fit: cover;
+    border: solid 5px;
+    border-color: aliceblue;
+}        
+
+.third-2{
+    display: flex;
+    width: 70%;
+    flex-direction: column;    
+    border-radius: 20px;    
+}        
+
+
+.titletheme{
+    color: rgb(255, 255, 255);
+    font-size: 100px;            
+}
+
+.tittle1{
+    color: rgb(255, 246, 246);
+    font-size: 30px;  
+    margin-left: 20px;
+}
+
+.descriptiontheme{
+    color: rgb(255, 254, 254);
+    font-size: 17px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+@media screen and (max-width: 768px){
+    .titletheme{
+        font-size: 70px;
+        text-align: center;
+    }
+    .second-1{
+        flex-direction: column;
+        width: 90%;
+    }
+    .third-1{
+        margin-top: 20px;
+        width: 100%; 
+        justify-content: center;   
+        
+    }
+    .third-1 img{        
+        width: 200px;
+        height: 200px;
+    }
+    .third-2{
+        width: 100%;
+    }
+
+    .descriptiontheme{
+        font-size: 10px;
+    }
+}
