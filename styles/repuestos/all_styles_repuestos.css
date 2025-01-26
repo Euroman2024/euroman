@@ -1,8 +1,10 @@
-.body2{            
+.body2{      
+  margin: 0;      
   margin-top: 100px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   /*background:radial-gradient(circle, rgb(219, 225, 255), rgb(255, 255, 255)) ;*/
-  
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.licdn.com/dms/image/C4D1BAQGHkvN5na3Q5Q/company-background_10000/0/1583733380340/man_camionesybuses_cover?e=2147483647&v=beta&t=uqLHFOKjoJI3bsYU3gqSsEGHxBa0a1Qha4Mle5XZ-9M') center;    
+  background-size: cover; 
   color: #252525;
 }
 /* Estilos del menú */
@@ -13,7 +15,7 @@
   padding: 10px;
   border-right: 0px solid #ddd;
   position: fixed; /* Hace que el menú sea fijo en la página */
-  height: 250px; /* Ocupa toda la altura del viewport */
+  height: 200px; /* Ocupa toda la altura del viewport */
   overflow-y: auto; /* Permite desplazarse si el contenido es demasiado largo */        
   border-radius: 20px;
   margin-top: 60px;
@@ -115,9 +117,10 @@ margin-left: 150px;
   margin-bottom: 10px;
   cursor: pointer;
   background-color: #ffff;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
@@ -139,9 +142,12 @@ margin-left: 150px;
   height: 30%; /* No permite que el div sobrepase la mitad del ancho del contenedor */
   max-height: 30%; /* No permite que 
   la imagen sobrepase la mitad del ancho del contenedor */
-  background-color: #161616;
+  background-color: #383c4c;
 }
+.h2clase h2{
+  color: #e6e6e6;
 
+}
 .imglr{
   position: absolute;
   width: 150px;
@@ -225,9 +231,6 @@ margin-left: 150px;
   display: flex;
   width: 100%;
   flex-direction: column;
-}
-.h2clase h2{
-  color: black;
 }
 .precio h6{   
   font-size: 20px;
@@ -564,4 +567,89 @@ border-color: white;
 #paginacion .activo {
 background-color: rgb(0, 119, 255);
 color: white;
+}
+
+
+
+/*NO SE QUE ES ESTO
+
+A
+SD
+AS
+DA
+SD
+AS
+DAS
+D
+ASD
+AS
+DAS
+D
+*/
+
+.selected {
+  background-color: blue;
+  color: red;
+}
+.buscarRepuestos {
+  border-radius: 20px;
+  height: 30px;
+   width: 100%;
+}
+.imglW {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 80%;
+  left: 80%;
+  z-index: 0;
+}
+.imglW img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.what {
+  position: absolute;   
+  top: 0;
+  left: 0;     
+  width: 100%;
+  height: 100%;        
+}
+.repuesto {
+  cursor: default;
+}
+@media screen and (max-width: 767px) {
+  /* Ajusta según sea necesario */
+  .buscarRepuestos{
+      width: 90%;
+  }
+}
+p {
+  color: white;
+}
+
+
+
+
+.buscarRepuestos {
+  width: 90%; /* Ajusta el ancho al contenedor */
+  
+  padding: 10px 15px; /* Espaciado interno */
+  font-size: 16px; /* Tamaño del texto */
+  border: 2px solid #ccc; /* Borde base */
+  border-radius: 25px; /* Esquinas redondeadas */
+  outline: none; /* Quita el borde azul al hacer clic */
+  transition: all 0.3s ease; /* Transiciones suaves */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.buscarRepuestos:focus {
+  border-color: #007bff; /* Cambia el color del borde al enfocarse */
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3); /* Resalta la sombra */
+}
+
+.buscarRepuestos::placeholder {
+  color: #aaa; /* Color del texto de marcador */
+  font-style: italic; /* Estilo cursivo */
 }

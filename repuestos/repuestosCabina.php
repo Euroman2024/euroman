@@ -6,46 +6,7 @@
     <title>Repuestos - Euroman</title>    
     <link rel="stylesheet" href="../styles/repuestos/all_styles_repuestos.css">
     <link rel="stylesheet" href="../styles/menu.css">
-    <link rel="stylesheet" href="../styles/footer.css">
-    <style>
-        .selected {
-            background-color: blue;
-            color: red;
-        }
-        .buscarRepuestos {
-            border-radius: 20px;
-            height: 30px;
-        }
-        .imglW {
-            position: absolute;
-            width: 40px;
-            height: 40px;
-            top: 80%;
-            left: 80%;
-            z-index: 0;
-        }
-        .imglW img {
-            width: 100%;
-            height: 100%;
-            object-fit: fill;
-        }
-        .what {
-            position: absolute;   
-            top: 0;
-            left: 0;     
-            width: 100%;
-            height: 100%;        
-        }
-        .repuesto {
-            cursor: default;
-        }
-        @media screen and (max-width: 767px) {
-            /* Ajusta según sea necesario */
-        }
-        p {
-            color: white;
-        }
-    </style>
+    <link rel="stylesheet" href="../styles/footer.css">    
 </head>
 <body class="body2">
     <?php include "../templates/menu.php"; ?>
