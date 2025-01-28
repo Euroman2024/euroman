@@ -76,6 +76,28 @@
         .social-link:hover .social-name {
             color: #007bff;
         }
+        .card-body{
+            background-color:rgb(255, 255, 255);
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+
+        .sectionvision{
+            margin-top: 100px;
+            background-color: rgb(56, 60, 76);
+            border-radius: 20px;
+        }
+        .sectionmision{
+            background-color: rgb(56, 60, 76);
+            border-radius: 20px;
+        }
+        .mb-4{
+            color: white;
+            margin-bottom: 0rem !important;                       
+        }
+        .redC{
+            margin-top: 20px;
+        }
         
     </style>
 </head>
@@ -87,9 +109,9 @@
         <!-- Sección de Visión -->
         <section class="sectionvision animated">
             <h2 class="text-center mb-4">Visión</h2>
-            <div class="card shadow-sm">
+            <div class="car shadow-sm">
                 <div class="card-body">
-                    <p class="lead text-justify" style="color:black">Nos vemos como pioneros en el desarrollo económico y tecnológico de Ambato y sus alrededores. En Euroman, aspiramos a ser reconocidos por nuestra excelencia, integridad y compromiso con la sostenibilidad. Buscamos no solo satisfacer las necesidades actuales de nuestros clientes, sino también anticipar y abordar proactivamente los desafíos futuros. Euroman se esfuerza por ser un motor de crecimiento, promoviendo la innovación y elevando los estándares de calidad en nuestro sector.</p>
+                    <p class="lead text-justify" style="color:rgb(56, 60, 76)">Nos vemos como pioneros en el desarrollo económico y tecnológico de Ambato y sus alrededores. En Euroman, aspiramos a ser reconocidos por nuestra excelencia, integridad y compromiso con la sostenibilidad. Buscamos no solo satisfacer las necesidades actuales de nuestros clientes, sino también anticipar y abordar proactivamente los desafíos futuros. Euroman se esfuerza por ser un motor de crecimiento, promoviendo la innovación y elevando los estándares de calidad en nuestro sector.</p>                   
                     <div class="text-center">
                         <img src="../carpetaeuromanimagenes/logo.png" alt="Descripción de la imagen" class="img-fluid rounded-circle" style="max-width: 200px;">
                     </div>
@@ -100,9 +122,9 @@
         <!-- Sección de Misión -->
         <section class="sectionmision animated mt-5">
             <h2 class="text-center mb-4">Misión</h2>
-            <div class="card shadow-sm">
+            <div class="car shadow-sm">
                 <div class="card-body">
-                    <p class="lead text-justify" style="color:black">En Euroman, nos dedicamos a ofrecer soluciones innovadoras y servicios de alta calidad en sector de vehículos pesados, fortaleciendo así el tejido empresarial de Ambato y contribuyendo al bienestar de nuestra comunidad. Nuestra misión es ser líderes en la entrega de productos y servicios excepcionales, superando las expectativas de nuestros clientes y generando un impacto positivo en la sociedad.</p>
+                    <p class="lead text-justify" style="color:rgb(56, 60, 76)">En Euroman, nos dedicamos a ofrecer soluciones innovadoras y servicios de alta calidad en sector de vehículos pesados, fortaleciendo así el tejido empresarial de Ambato y contribuyendo al bienestar de nuestra comunidad. Nuestra misión es ser líderes en la entrega de productos y servicios excepcionales, superando las expectativas de nuestros clientes y generando un impacto positivo en la sociedad.</p>                    
                     <div class="text-center">
                         <img src="../carpetaeuromanimagenes/logo.png" alt="Descripción de la imagen" class="img-fluid rounded-circle" style="max-width: 200px;">
                     </div>
@@ -113,7 +135,7 @@
         <!-- Sección de Redes Sociales -->
         <section class="sectionredes animated mt-5">
             <h2 class="text-center mb-4">Síguenos en Redes Sociales</h2>
-            <div class="row justify-content-center">
+            <div class="redC row justify-content-center">
                 <!-- TikTok -->
                 <div class="col-md-3 mb-4">
                     <div class="social-card d-flex flex-column align-items-center p-4">
