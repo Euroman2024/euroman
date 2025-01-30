@@ -87,15 +87,60 @@
             gap: 20px;
         }
     </style>
+
+
+
+    <style>
+        .container{
+            
+            
+            margin-bottom: 40px;
+            width: 90%;
+            
+           
+        }
+        .card{
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+        .card-body{
+            background-color:  #383c4c;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+        .section-title{
+            color: white;
+        }
+    </style>
 </head>
 
 <body class="body2">
 
     <?php include "../templates/menu.php"; ?>
-    <div style="display: flex;margin-top:40px;"></div>
+    <div style="display: flex;margin-top:120px;"></div>
+    <div style="display: flex; width: 73%; background-color: white; margin:0 auto; align-items: center; justify-content: center; clip-path: polygon(0 1%, 100% 0, 98% 50%, 100% 100%, 0 100%, 2% 50%);">
+    <h1 class="display-4" style="color:#383c4c; width: 70%; text-align: center; display: flex; justify-content: space-between; white-space: nowrap;margin:auto 0;margin-top:5px;margin-bottom:6px;">
+        <span>C</span>
+        <span>A</span>
+        <span>M</span>
+        <span>I</span>
+        <span>O</span>
+        <span>N</span>
+        <span>E</span>
+        <span>S</span>
+        <span> </span>
+        <span> </span>        
+        <span>N</span>
+        <span>U</span>
+        <span>E</span>
+        <span>V</span>
+        <span>O</span>
+        <span>S</span>
+    </h1>
+</div>
     <div class="container">
         <!-- Título Principal -->
-        <h1 class="display-4" style="color:white;">Camiones Nuevos</h1>
+        
 
         <!-- Contenedor de tarjetas -->
         <div class="cards-container">
@@ -121,11 +166,9 @@
 
             <!-- Card del Camión 2 -->
             <div class="card">
-                <img src="../carpetaeuromanimagenes/camionesNuevos/producto2/" class="card-img-top" alt="">
+                <img src="../carpetaeuromanimagenes/camionesNuevos/proximamente.jpg" class="card-img-top" alt="">
                 <div class="card-body text-center">
-                    <h5 class="section-title">PROXIMAMENTE</h5>
-                    <p class="offer-label">OFERTA</p>
-                    <a href="camionesnuevos-camion2.php" class="btn btn-custom">Ver Camión</a>
+                    <h5 class="section-title">PROXIMAMENTE</h5>                                        
                 </div>
             </div>
         </div>

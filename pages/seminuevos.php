@@ -40,8 +40,7 @@
         /* Sección individual */
         .card {
             border: 1px solid #ddd;
-            border-radius: 10px;
-            padding: 15px;
+            border-radius: 10px;            
             text-align: center;
             background-color: #fff;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -55,12 +54,12 @@
 
         /* Imagen dentro de cada sección */
         .card img {
-            border-radius: 10px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
             width: 100%;
             height: auto;
             max-height: 200px;
-            object-fit: cover;
-            margin-bottom: 15px;
+            object-fit: cover;            
         }
 
         /* Títulos y etiquetas dentro de la sección */
@@ -97,48 +96,107 @@
             transform: scale(1.05);
         }
     </style>
+
+<style>
+        .container{
+            
+            
+            margin-bottom: 40px;
+            width: 90%;
+            
+           
+        }
+        .card{
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+        .card-body{
+            background-color:  #383c4c;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+        .section-title{
+            color: white;            
+        }
+    </style>
 </head>
 <body class="body2">
 
     <?php include "../templates/menu.php"; ?>
-    <div style="display:flex;margin-top:45px;"></div>
+    <div style="display:flex;margin-top:120px;"></div>
+
+    <div style="display: flex; width: 73%; background-color: white; margin:0 auto; align-items: center; justify-content: center; clip-path: polygon(0 1%, 100% 0, 98% 50%, 100% 100%, 0 100%, 2% 50%);">
+    <h1 class="display-4" style="color:#383c4c; width: 80%; text-align: center; display: flex; justify-content: space-between; white-space: nowrap;margin:auto 0;margin-top:5px;margin-bottom:6px;">
+        <span>C</span>
+        <span>A</span>
+        <span>M</span>
+        <span>I</span>
+        <span>O</span>
+        <span>N</span>
+        <span>E</span>
+        <span>S</span>
+        <span> </span>
+        <span> </span>
+        <span>S</span>
+        <span>E</span>
+        <span>M</span>
+        <span>I</span>
+        <span>N</span>
+        <span>U</span>
+        <span>E</span>
+        <span>V</span>
+        <span>O</span>
+        <span>S</span>
+    </h1>
+</div>
+
+
+
 
     <div class="container">
         <!-- Título principal -->
-        <h1 class="display-4" style="color:white;">Camiones Seminuevos</h1>
+        
 
         <!-- Contenedor de tarjetas -->
         <div class="cards-container">
             <!-- Sección 1 -->
-            <div class="card">
+            <div class="card" style="background-color:#383c4c;">
                 <img style="object-fit:contain;" src="../carpetaeuromanimagenes/camion11111.jpg" alt="Camión TGA 33.480BBS">
+                <div class="card-body text-center">
                 <h5 class="section-title">TGA 33.480BBS</h5>
                 <p class="status-label red">VENDIDO</p>
                 <a href="./seminuevos-producto1.php" class="blue-button">Ver Seminuevo</a>
+                </div>
             </div>
 
             <!-- Sección 2 -->
             <div class="card">
                 <img src="../carpetaeuromanimagenes/seminuevos/producto2/tgs8.jpg" alt="Camión TGS 33.480">
+                <div class="card-body text-center">
                 <h5 class="section-title">TGS 33.480</h5>
                 <p class="status-label red">VENDIDO</p>
                 <a href="./seminuevos-producto2.php" class="blue-button">Ver Seminuevo</a>
+                </div>
             </div>
 
             <!-- Sección 3 -->
             <div class="card">
                 <img src="../carpetaeuromanimagenes/seminuevos/producto3/tga2.jpeg" alt="Camión TGA 33.480">
+                <div class="card-body text-center">
                 <h5 class="section-title">TGA 33.480</h5>
                 <p class="status-label red">VENDIDO</p>
                 <a href="./seminuevos-producto3.php" class="blue-button">Ver Seminuevo</a>
+                </div>
             </div>
 
 
             <div class="card">
-                <img src="../carpetaeuromanimagenes/seminuevos/producto3/" alt="">
+                <img src="../carpetaeuromanimagenes/camionesNuevos/proximamente.jpg" alt="">
+                <div class="card-body text-center">
                 <h5 class="section-title"></h5>
-                <p class="status-label red" style="color:green;">PROXIMAMENTE</p>
-                <a href="./seminuevos-producto3.php" class="blue-button">Ver Seminuevo</a>
+                <p class="status-label red" style="color:white;">PROXIMAMENTE</p>
+                
+                </div>
             </div>
 
            
