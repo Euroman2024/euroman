@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="../styles/whatsapp.css">
     <link rel="stylesheet" href="../styles/menu.css">
-    <link rel="stylesheet" href="../styles/footer.css">    
+    <link rel="stylesheet" href="../styles/footer.css">
     <style>
         .body2 {
             background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://www.transporteprofesional.es/media/k2/items/cache/020f5bdda5e609eb70e175a012fe996c_XL.jpg') center fixed;
@@ -16,7 +16,8 @@
             position: relative;
 
         }
-        .social-link{
+
+        .social-link {
             text-decoration: none;
         }
 
@@ -76,29 +77,49 @@
         .social-link:hover .social-name {
             color: #007bff;
         }
-        .card-body{
-            background-color:rgb(255, 255, 255);
+
+        .card-body {
+            background-color: rgb(255, 255, 255);
             border-bottom-left-radius: 20px;
             border-bottom-right-radius: 20px;
         }
 
-        .sectionvision{
+        .sectionvision {
             margin-top: 100px;
             background-color: rgb(56, 60, 76);
             border-radius: 20px;
         }
-        .sectionmision{
+
+        .sectionmision {
             background-color: rgb(56, 60, 76);
             border-radius: 20px;
         }
-        .mb-4{
+
+        .sectionredes {
+            background-color: rgb(56, 60, 76);
+            border-radius: 20px;
+        }
+
+        .mb-4 {
             color: white;
-            margin-bottom: 0rem !important;                       
+            margin-bottom: 0rem !important;
         }
-        .redC{
+
+        .redC {
+            margin-top: 10px;
+            background-color: white;
+            margin-right: 0px;
+            margin-left: 0px;
+
+        }
+
+        .redesI {
             margin-top: 20px;
+            margin-bottom: 30px;
         }
-        
+        .hf2{
+            font-size: 25px;
+        }
     </style>
 </head>
 
@@ -111,7 +132,7 @@
             <h2 class="text-center mb-4">Visión</h2>
             <div class="car shadow-sm">
                 <div class="card-body">
-                    <p class="lead text-justify" style="color:rgb(56, 60, 76)">Nos vemos como pioneros en el desarrollo económico y tecnológico de Ambato y sus alrededores. En Euroman, aspiramos a ser reconocidos por nuestra excelencia, integridad y compromiso con la sostenibilidad. Buscamos no solo satisfacer las necesidades actuales de nuestros clientes, sino también anticipar y abordar proactivamente los desafíos futuros. Euroman se esfuerza por ser un motor de crecimiento, promoviendo la innovación y elevando los estándares de calidad en nuestro sector.</p>                   
+                    <p class="lead text-justify" style="color:rgb(56, 60, 76)">Nos vemos como pioneros en el desarrollo económico y tecnológico de Ambato y sus alrededores. En Euroman, aspiramos a ser reconocidos por nuestra excelencia, integridad y compromiso con la sostenibilidad. Buscamos no solo satisfacer las necesidades actuales de nuestros clientes, sino también anticipar y abordar proactivamente los desafíos futuros. Euroman se esfuerza por ser un motor de crecimiento, promoviendo la innovación y elevando los estándares de calidad en nuestro sector.</p>
                     <div class="text-center">
                         <img src="../carpetaeuromanimagenes/logo.png" alt="Descripción de la imagen" class="img-fluid rounded-circle" style="max-width: 200px;">
                     </div>
@@ -124,7 +145,7 @@
             <h2 class="text-center mb-4">Misión</h2>
             <div class="car shadow-sm">
                 <div class="card-body">
-                    <p class="lead text-justify" style="color:rgb(56, 60, 76)">En Euroman, nos dedicamos a ofrecer soluciones innovadoras y servicios de alta calidad en sector de vehículos pesados, fortaleciendo así el tejido empresarial de Ambato y contribuyendo al bienestar de nuestra comunidad. Nuestra misión es ser líderes en la entrega de productos y servicios excepcionales, superando las expectativas de nuestros clientes y generando un impacto positivo en la sociedad.</p>                    
+                    <p class="lead text-justify" style="color:rgb(56, 60, 76)">En Euroman, nos dedicamos a ofrecer soluciones innovadoras y servicios de alta calidad en sector de vehículos pesados, fortaleciendo así el tejido empresarial de Ambato y contribuyendo al bienestar de nuestra comunidad. Nuestra misión es ser líderes en la entrega de productos y servicios excepcionales, superando las expectativas de nuestros clientes y generando un impacto positivo en la sociedad.</p>
                     <div class="text-center">
                         <img src="../carpetaeuromanimagenes/logo.png" alt="Descripción de la imagen" class="img-fluid rounded-circle" style="max-width: 200px;">
                     </div>
@@ -132,12 +153,61 @@
             </div>
         </section>
 
+      
+
+
+
+        <section class="sectionmision animated mt-5">
+            <h2 class="text-center mb-4">Ubicacion</h2>
+            <div class="car shadow-sm">
+                <div class="card-body">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.916140398168!2d-78.58998612444155!3d-1.2184727987698987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d381fbaf691c2f%3A0x952658047d9b4617!2sEuroman%20-%20Repuestos%20y%20servicio%20t%C3%A9cnico%20MAN!5e0!3m2!1ses!2sec!4v1720811362175!5m2!1ses!2sec"
+                    width="100%" height="300px" style="border:0;margin:0 auto;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  
+                </div>
+            </div>
+        </section>
+
+        <section class="sectionmision animated mt-5">
+            <h2 class="text-center mb-4">Telefonos</h2>
+            <div class="car shadow-sm">
+                <div class="card-body">
+                    <p class="lead " style="color:rgb(56, 60, 76);text-align: center;">
+                        <span class="hf2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"></path>
+                            </svg>
+                            0993249756
+                        </span>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span class="hf2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"></path>
+                            </svg>
+                            0985359894 
+                        </span>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span class="hf2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"></path>
+                            </svg>
+                            0994658275
+                        </span>
+
+                    </p>
+                  
+                </div>
+            </div>
+        </section>
+
         <!-- Sección de Redes Sociales -->
         <section class="sectionredes animated mt-5">
-            <h2 class="text-center mb-4">Síguenos en Redes Sociales</h2>
+            <h2 class="text-center mb-4">Nuestras redes sociales</h2>
             <div class="redC row justify-content-center">
                 <!-- TikTok -->
-                <div class="col-md-3 mb-4">
+                <div class="redesI col-md-3 ">
                     <div class="social-card d-flex flex-column align-items-center p-4">
                         <a href="https://www.tiktok.com/@euromanambato" target="_blank" class="social-link">
                             <div class="icon-container">
@@ -149,7 +219,7 @@
                 </div>
 
                 <!-- Facebook -->
-                <div class="col-md-3 mb-4">
+                <div class="redesI col-md-3 ">
                     <div class="social-card d-flex flex-column align-items-center p-4">
                         <a href="https://www.facebook.com/euroman.ambato.1/" target="_blank" class="social-link">
                             <div class="icon-container">
@@ -161,7 +231,7 @@
                 </div>
 
                 <!-- Instagram -->
-                <div class="col-md-3 mb-4">
+                <div class="redesI col-md-3 ">
                     <div class="social-card d-flex flex-column align-items-center p-4">
                         <a href="https://www.instagram.com/euroman_ec/" target="_blank" class="social-link">
                             <div class="icon-container">
@@ -173,7 +243,7 @@
                 </div>
 
                 <!-- WhatsApp -->
-                <div class="col-md-3 mb-4">
+                <div class="redesI col-md-3">
                     <div class="social-card d-flex flex-column align-items-center p-4">
                         <a href="https://wa.me/593993249756" target="_blank" class="social-link">
                             <div class="icon-container">
@@ -188,6 +258,8 @@
 
 
 
+       
+
 
     </div> <!-- End container -->
 
@@ -200,7 +272,7 @@
     <script src="../scripts/whatsapp.js"></script>
     <script src="../scripts/quienesSomos/animated.js"></script>
     <script src="../scripts/menu.js"></script>
-    
+
 </body>
 
 </html>
