@@ -57,7 +57,7 @@
                 <div class="imagenini1" onclick="redirigiropcion1()" id="imagenNuevos">
                     <img class="active" src="./carpetaeuromanimagenes/inicio/op1.jpeg" alt="nA">
                     <img src="./carpetaeuromanimagenes/inicio/nuevosini2.jpg" alt="nA">
-                    <img src="./carpetaeuromanimagenes/inicio/nuevosEuroman3.jpg" alt="nA">
+                    <img src="./carpetaeuromanimagenes/camionesNuevos/slide3.jpg" alt="nA">
 
                 </div>
 
@@ -78,8 +78,8 @@
                 </div>
                 <div class="imagenini1" onclick="redirigiropcion4()" id="imagenServicios">
                     <img class="active" src="./carpetaeuromanimagenes/inicio/talleres.jpg" alt="nA">
-                    <img src="./carpetaeuromanimagenes/inicio/talleresEuroman1.jpg" alt="nA">
-                    <img src="./carpetaeuromanimagenes/inicio/talleresEuroman2.jpg" alt="nA">
+                    <img src="./carpetaeuromanimagenes/inicio/talleresEuroman.jpg" alt="nA">
+                    <img src="./carpetaeuromanimagenes/inicio/servicios2.jpg" alt="nA">
                 </div>
             </div>
             <div class="iconosxd">
