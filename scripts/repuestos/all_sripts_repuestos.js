@@ -162,37 +162,35 @@ class RepuestosManager {
         const inicio = (pagina - 1) * this.repuestosPorPagina;
         const fin = inicio + this.repuestosPorPagina;
         const repuestosPagina = repuestos.slice(inicio, fin);
+    
         repuestosPagina.forEach(repuesto => {
             const divRepuesto = document.createElement('div');
             divRepuesto.classList.add('repuesto');
             divRepuesto.innerHTML = `
-                <div style="display:flex;width:100%;height:20%;background-color:#383c4c;"><h3 style="font-size:1.5rem;color:white;">${repuesto.nombre_repuesto}</h3></div> 
-                <div style="display:flex;width:100%;height:60%;">
-                <img style="width:100%;height:100%;object-fit:fill;max-height:100%;" src="../imagenes/${repuesto.imagen1}" alt="Imagen de ${repuesto.nombre_repuesto}" class="img-thumbnail" 
-                    data-bs-toggle="modal" data-bs-target="#modalImagenRepuesto" 
-                    data-bs-img-src="../imagenes/${repuesto.imagen1}" 
-                    data-bs-name="${repuesto.nombre_repuesto}">  
+                <div style="display:flex;width:100%;height:20%;background-color:#383c4c;">
+                    <h3 style="font-size:1.5rem;color:white;">${repuesto.nombre_repuesto}</h3>
+                </div> 
+                <div style="display:flex;width:100%;height:80%;">
+                    <img style="width:100%;height:100%;object-fit:fill;max-height:100%;" 
+                        src="../imagenes/${repuesto.imagen1}" 
+                        alt="Imagen de ${repuesto.nombre_repuesto}" 
+                        class="img-thumbnail">
                 </div>             
-                <div style="display:flex;width:100%;height:20%;background-color:green;"><a style="margin:0 auto;color:white;" href="https://wa.me/593994658275/?text=¡Hola! Me interesa el repuesto ${repuesto.nombre_repuesto} y quiero obtener más información sobre el producto.">Cotiza aqui</a></div>
-                
             `;
+    
+            // Hacer que todo el div sea clickeable
+            divRepuesto.style.cursor = 'pointer';
+            divRepuesto.addEventListener('click', () => {
+                window.location.href = `detalle_repuesto.php?repuesto_id=${repuesto.repuesto_id}`;
+            });
+    
             detallesRepuesto.appendChild(divRepuesto);
         });
     
         // Llamar a la función de paginación
         this.crearBotonesPaginacion(repuestos.length, pagina, (paginaSeleccionada) => this.mostrarRepuestos(repuestos, paginaSeleccionada));
-    
-        // Evento para cambiar la imagen y el nombre en el modal al hacer clic en una imagen de repuesto
-        const imagenesRepuesto = document.querySelectorAll('.repuesto img[data-bs-toggle="modal"]');
-        imagenesRepuesto.forEach(imagen => {
-            imagen.addEventListener('click', (e) => {
-                const imgSrc = e.target.getAttribute('data-bs-img-src');
-                const repuestoNombre = e.target.getAttribute('data-bs-name');
-                document.getElementById('imagenModal').src = imgSrc;
-                document.getElementById('modalImagenRepuestoLabel').textContent = `Imagen de ${repuestoNombre}`;  // Cambia el título del modal
-            });
-        });
     }
+    
 
 
     /* mostrarRepuestos(repuestos, pagina) {

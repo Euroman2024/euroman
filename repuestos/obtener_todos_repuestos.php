@@ -1,7 +1,9 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 include 'conexion.php';
 // Consulta para obtener todos los repuestos
-$query = "SELECT * FROM repuestos";
+$query = "SELECT * FROM repuestosMecanica";
 $result = $conexion->query($query);
 
 // Array para almacenar los repuestos
