@@ -88,6 +88,8 @@ class RepuestosManager {
         if (this.todosRepuestos.length === 0) {
             this.cargarTodosRepuestos(() => {
                 this.filtrarYMostrarRepuestosPorSubcategoria(subcategoriaId, nombreSubcategoria, pagina);
+                const titulo_subcategoria = document.getElementById('titulo-subcategoria');
+                titulo_subcategoria.style.display="none"
             });
         } else {
             this.filtrarYMostrarRepuestosPorSubcategoria(subcategoriaId, nombreSubcategoria, pagina);
@@ -95,8 +97,9 @@ class RepuestosManager {
     }
 
     filtrarYMostrarRepuestosPorSubcategoria(subcategoriaId, nombreSubcategoria, pagina) {
-        const detallesRepuesto = document.getElementById('detalles-repuesto');
-        detallesRepuesto.innerHTML = `<div class="h2clase"><h2>${nombreSubcategoria}</h2><br><h2>Detalles de los repuestos</h2></div>`;
+        const titulo_subcategoria = document.getElementById('titulo-subcategoria');
+        titulo_subcategoria.style.display="flex";
+        titulo_subcategoria.innerHTML = `<div class="h2clase"><h2>${nombreSubcategoria}</h2></div>`;
         const repuestosFiltrados = this.todosRepuestos.filter(repuesto => repuesto.subcategoria_id === subcategoriaId);
         this.mostrarRepuestos(repuestosFiltrados, pagina);
     }
@@ -113,11 +116,14 @@ class RepuestosManager {
     }
 
     cargarRepuestosPorBusqueda(textoBusqueda, pagina = 1) {
+        const titulo_subcategoria = document.getElementById("titulo-subcategoria")
         if (this.todosRepuestos.length === 0) {
             this.cargarTodosRepuestos(() => {
+                titulo_subcategoria.style.display="none";
                 this.filtrarYMostrarRepuestos(textoBusqueda, pagina);
             });
         } else {
+            titulo_subcategoria.style.display="none";
             this.filtrarYMostrarRepuestos(textoBusqueda, pagina);
         }
     }
@@ -149,7 +155,7 @@ class RepuestosManager {
 
     mostrarRepuestos(repuestos, pagina) {
         const detallesRepuesto = document.getElementById('detalles-repuesto');
-        detallesRepuesto.innerHTML = `<div class="h2clase"><h2>Detalles de los repuestos</h2></div>`;
+        detallesRepuesto.innerHTML = `<div class="h2clase"><h2>Lista de repuestos</h2></div>`;
         const inicio = (pagina - 1) * this.repuestosPorPagina;
         const fin = inicio + this.repuestosPorPagina;
         const repuestosPagina = repuestos.slice(inicio, fin);

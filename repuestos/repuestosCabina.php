@@ -69,6 +69,14 @@
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
     </style>  
+    <style>
+         #titulo-subcategoria{
+            display: none;
+            width: 100%;
+            height: 30px;
+            
+        }
+    </style>
 </head>
 <body class="body2">
     <?php include "../templates/menu.php"; ?>
@@ -87,6 +95,8 @@
             <div id="contenido">
                 <div id="rep-d">
                     <input class="buscarRepuestos" type="text" id="searchInput" placeholder="Buscar repuestos...">
+                    <div id="titulo-subcategoria">                        
+                    </div>
                     <div id="detalles-repuesto">
                         Seleccione un repuesto para ver los detalles.
                     </div>
