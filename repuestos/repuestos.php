@@ -74,10 +74,10 @@
     <?php include "../templates/menu.php"; ?>
     <div class="body3">
         <div class="menu2">    
-        <a href="#"><button class="bt-no-active izq">MECANICA</button></a>
+        <a href="#"><button class="bt-no-active izq">TREN MOTRIZ</button></a>
             <a href="repuestosCabina.php"><button class="bt-active der">CABINA</button></a> 
             <div id="menu">                
-                <h2 class="titulo-categoria">REPUESTOS MECANICA</h2>
+                <h2 class="titulo-categoria">REPUESTOS TREN MOTRIZ</h2>
                 <ul id="lista-categorias">
                     <!-- Aquí se cargarán las categorías dinámicamente -->
                 </ul>

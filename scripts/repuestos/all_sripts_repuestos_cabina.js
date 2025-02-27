@@ -40,58 +40,49 @@ class RepuestosManager {
     }
 
     toggleSubcategorias(categoriaId, nombreCategoria) {
-        // Obtenemos el contenedor de la categoría seleccionada
-        const categoriaSeleccionada = document.querySelector(`[data-categoria-id="${categoriaId}"]`);
-    
-        // Verificamos si la categoría ya está expandida
-        if (this.categoriasExpandidas[categoriaId]) {
-            // Si está expandida, la ocultamos
-            this.categoriasExpandidas[categoriaId] = false;
-            const subcategoriasContainer = categoriaSeleccionada.querySelector('.subcategorias');
-            if (subcategoriasContainer) {
-                subcategoriasContainer.style.display = 'none'; // Ocultamos las subcategorías
-            }
-        } else {
-            // Si no está expandida, la mostramos
+        if (!this.categoriasExpandidas[categoriaId]) {
             this.categoriasExpandidas[categoriaId] = true;
             this.cargarSubcategorias(categoriaId, nombreCategoria);
         }
     }
     
     cargarSubcategorias(categoriaId, nombreCategoria) {
-        // Hacemos la solicitud para cargar las subcategorías
         fetch(`obtener_subcategorias_cabina.php?categoria_id=${categoriaId}`)
             .then(response => response.json())
             .then(subcategorias => {
-                // Obtenemos el contenedor de la categoría seleccionada
                 const categoriaSeleccionada = document.querySelector(`[data-categoria-id="${categoriaId}"]`);
-    
-                // Verificamos si ya existe el contenedor de subcategorías
                 let subcategoriasContainer = categoriaSeleccionada.querySelector('.subcategorias');
                 if (!subcategoriasContainer) {
-                    // Si no existe, lo creamos
                     subcategoriasContainer = document.createElement('ul');
                     subcategoriasContainer.classList.add('subcategorias');
                     categoriaSeleccionada.appendChild(subcategoriasContainer);
                 }
     
-                // Limpiamos las subcategorías anteriores
                 subcategoriasContainer.innerHTML = '';
-    
-                // Añadimos las nuevas subcategorías
                 subcategorias.forEach(subcategoria => {
                     const item = document.createElement('li');
                     item.textContent = subcategoria.nombre_subcategoria;
-                    item.addEventListener('click', () => this.cargarRepuestos(subcategoria.subcategoria_id, subcategoria.nombre_subcategoria));
+                    item.setAttribute('data-subcategoria-id', subcategoria.subcategoria_id);
+                    item.addEventListener('click', (event) => this.seleccionarSubcategoria(event, subcategoria.subcategoria_id, subcategoria.nombre_subcategoria));
                     subcategoriasContainer.appendChild(item);
                 });
     
-                // Mostramos las subcategorías
                 subcategoriasContainer.style.display = 'block';
             })
             .catch(error => console.error('Error al cargar subcategorías', error));
     }
     
+    seleccionarSubcategoria(event, subcategoriaId, nombreSubcategoria) {
+        // Eliminar selección previa
+        document.querySelectorAll('.subcategorias li').forEach(li => li.classList.remove('seleccionada'));
+    
+        // Marcar como seleccionada
+        const subcategoriaSeleccionada = event.target;
+        subcategoriaSeleccionada.classList.add('seleccionada');
+    
+        // Cargar los repuestos de la subcategoría
+        this.cargarRepuestos(subcategoriaId, nombreSubcategoria);
+    }
     
     cargarRepuestos(subcategoriaId, nombreSubcategoria, pagina = 1) {
         if (this.todosRepuestos.length === 0) {
@@ -167,8 +158,8 @@ class RepuestosManager {
             const divRepuesto = document.createElement('div');
             divRepuesto.classList.add('repuesto');
             divRepuesto.innerHTML = `
-                <div style="display:flex;width:100%;height:20%;background-color:#383c4c;">
-                    <h3 style="font-size:1.5rem;color:white;">${repuesto.nombre_repuesto}</h3>
+                <div style="display:flex;width:100%;height:20%;background-color:white;">
+                    <h3>${repuesto.nombre_repuesto}</h3>
                 </div> 
                 <div style="display:flex;width:100%;height:80%;">
                     <img style="width:100%;height:100%;object-fit:fill;max-height:100%;" 

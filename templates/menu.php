@@ -7,9 +7,9 @@
     <ul>
       <li><a href="../index.php">INICIO</a>       
       </li>
-      <li><a href="../repuestos/repuestos.php">REPUESTOS</a>
+      <li><a href="../repuestos/repuestos_principal.php">REPUESTOS</a>
         <ul>
-          <li><a href="../repuestos/repuestos.php">MECANICA</a></li>
+          <li><a href="../repuestos/repuestos.php">TREN MOTRIZ</a></li>
           <li><a href="../repuestos/repuestosCabina.php">CABINA</a></li>   
         </ul>
       </li>

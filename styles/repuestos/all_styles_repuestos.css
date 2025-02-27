@@ -7,6 +7,9 @@
   background-size: cover; 
   color: #252525;
 }
+body{
+  font-family: fantasy !important;
+}
 /* Estilos del menú */
 #menu { 
   float: left;
@@ -70,8 +73,7 @@ margin-left: 150px;
   margin-top: 0;
   margin-bottom: 10px;
   font-size: 18px;
-  color: #3c3c3c;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #3c3c3c;  
 }
 .titulo-categoria{
   font-size: 18px;    
@@ -87,8 +89,7 @@ margin-left: 150px;
 #lista-categorias li {
   padding: 8px 0;
   cursor: pointer;
-  color: #232323;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #383c4c;  
 }
 #lista-categorias ul:hover {
   background-color: #d2d2d270;
@@ -144,6 +145,7 @@ margin-left: 150px;
 }
 .h2clase h2{
   color: #e6e6e6;
+  font-family: fantasy;
 
 }
 .imglr{
@@ -158,10 +160,17 @@ margin-left: 150px;
 
 
 .repuesto h3 {
+  margin: auto 0;
   margin-right: 00px;
   font-size: 10px; /* Ajusta el tamaño del texto */
-  color: #ffffff;
+  color: #383c4c;
   margin-left: 20px;
+  font-family: fantasy; 
+  font-size:1rem;
+  white-space: nowrap; /* Evita que el texto haga saltos de línea */
+  overflow: hidden; /* Oculta el contenido que se salga */
+  text-overflow: ellipsis; /* Agrega "..." si el texto es muy largo */
+  
 }
 
 .repuesto img {
@@ -651,3 +660,11 @@ p {
   color: #aaa; /* Color del texto de marcador */
   font-style: italic; /* Estilo cursivo */
 }
+
+
+
+.subcategorias li.seleccionada {    
+color: red !important;    
+font-weight: bold;
+}
+

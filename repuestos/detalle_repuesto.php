@@ -8,6 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="../styles/menu.css">
+    <link rel="stylesheet" href="../styles/footer.css">   
+    <link rel="stylesheet" href="../styles/whatsapp.css">
     <style>
         .bg-light {
             margin: 0;
@@ -72,6 +74,9 @@
             </div>
         </div>
     </div>
+
+    <?php include "../templates/whatsapp.php";?>
+    <?php include "../templates/footer.php";?> 
 
     <script>
         document.addEventListener("DOMContentLoaded", () => {

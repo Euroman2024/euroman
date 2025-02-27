@@ -74,7 +74,7 @@
     <?php include "../templates/menu.php"; ?>
     <div class="body3">
         <div class="menu2">
-            <a href="repuestos.php"><button class="bt-active izq">MECANICA</button></a>
+            <a href="repuestos.php"><button class="bt-active izq">TREN MOTRIZ</button></a>
             <a href="#"><button class="bt-no-active der">CABINA</button></a>       
             <div id="menu">                
                 <h2 class="titulo-categoria">REPUESTOS CABINA</h2>

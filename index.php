@@ -939,7 +939,7 @@
             }
         };
         document.getElementById('repuestosTbtn').onclick = function() {
-            window.location.href = './repuestos/repuestos.php';
+            window.location.href = './repuestos/repuestos_principal.php';
         };
 
 
