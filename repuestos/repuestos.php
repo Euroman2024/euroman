@@ -73,7 +73,8 @@
         #titulo-subcategoria{
             display: none;
             width: 100%;
-            height: 30px;
+            height: 30px;            
+            margin-bottom: 20px;
             
         }
     </style>
