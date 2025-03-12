@@ -712,6 +712,14 @@
                         <img src="./carpetaeuromanimagenes/inicio/chasis/sistemadecombustible.jpg" alt="">
                     </div>
                 </div>
+                <div class="element222">
+                    <p>SISTEMA DE ALUMBRADO</p>
+                </div>
+                <div class="lol" id="SISTEMA DE ALUMBRADO1">
+                    <div class="loldiv2">
+                        <img src="./carpetaeuromanimagenes/inicio/chasis/sistemadealumbrado.jpg" alt="">
+                    </div>
+                </div>
 
                 <div class="element222">
                     <p>Repuesto - Chasis</p>
@@ -818,7 +826,7 @@
     </div>
 
 
-    <?php include "./templates/footer.php"; ?>
+    <?php include "./templates/footerini.php"; ?>
     <?php include "./templates/whatsapp.php"; ?>
 
     <script src="./scripts/whatsapp.js"></script>

@@ -82,17 +82,20 @@
 <body class="body2">
     <?php include "../templates/menu.php"; ?>
     <div class="body3">
-        <div class="menu2">    
-        <a href="#"><button class="bt-no-active izq">TREN MOTRIZ</button></a>
-            <a href="repuestosCabina.php"><button class="bt-active der">CABINA</button></a> 
+    <div style="display:flex;margin:0 auto;width:40%;height:90px;background-color:white;margin-top:150px;margin-bottom:50px;align-items:center;">
+            <h1 style="color:#383c4c;margin:0 auto;font-family:fantasy;">REPUESTOS DE TREN MOTRIZ</h1>
+        </div>
+       
+        <div class="contenido2">
+        <div class="menu2">            
+        <a href="repuestos_principal.php"><button class="bt-active izq" style="position: relative;width:250px;background-color:#383c4c;">REGRESAR</button></a>
             <div id="menu">                
-                <h2 class="titulo-categoria">REPUESTOS TREN MOTRIZ</h2>
+                <h2 class="titulo-categoria">CATEGORIAS</h2>
                 <ul id="lista-categorias">
                     <!-- Aquí se cargarán las categorías dinámicamente -->
                 </ul>
             </div>
         </div>
-        <div class="contenido2">
             <div id="contenido">
                 <div id="rep-d">
                     <input class="buscarRepuestos" type="text" id="searchInput" placeholder="Buscar repuestos...">

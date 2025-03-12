@@ -96,7 +96,7 @@
     }
 
     .service-card .btn {
-        background: #007bff;
+        background: #383c4c;
         border: none;
         border-radius: 25px;
         padding: 10px 20px;

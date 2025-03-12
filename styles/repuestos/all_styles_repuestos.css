@@ -10,14 +10,18 @@
 body{
   font-family: fantasy !important;
 }
+.contenido2{
+  display: flex;
+  flex-direction: row;
+}
 /* Estilos del menú */
 #menu { 
-  float: left;
+  
   width: 250px;
   background-color: #ffffff;
   padding: 10px;
   border-right: 0px solid #ddd;
-  position: fixed; /* Hace que el menú sea fijo en la página */
+  
   height: 200px; /* Ocupa toda la altura del viewport */
   overflow-y: auto; /* Permite desplazarse si el contenido es demasiado largo */        
   border-radius: 20px;
@@ -105,8 +109,7 @@ margin-left: 150px;
 }
 
 /* Estilos del contenido */
-#contenido {
-  margin-left: 300px; /* Ajusta el margen izquierdo para evitar solapamiento con el menú */
+#contenido {  
   padding: 20px;    
   border-radius: 20px;    
 }
@@ -508,51 +511,6 @@ nav ul li a:hover{
     flex-wrap: wrap;
   }
 }
-footer {
-  width: 100%;
-  display: flex;
-  gap: 1.25rem;
-  background-color: rgb(48, 48, 48);;
-  flex-direction: column;
-  color: white;
-      
-  
-  
-  font-size: 0.8rem;
-}
-
-footer p {
-  color: white;
-  font-size:15px;
-  margin-left:20px;
-}
-footer img {
-  width: 100px;
-  height: 30px;
-  object-fit: fill;
-}
-footer h3 {
-  color: white;
-  font-size: 20px;
-  margin-left:20px;
-}
-
-.contactos {
-  display: grid;
-  border-bottom: solid 1px white;
-  padding-bottom: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  row-gap: 10px;
-}
-
-.contactos span {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  color: white;
-  font-size:15px;
-  margin-left:20px;
-}  
 
 
 #paginacion {
