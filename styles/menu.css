@@ -1,6 +1,6 @@
 .body2 {
   color: #ffffff;
-
+  
 }
 
 nav {
@@ -11,13 +11,12 @@ nav {
   z-index: 1000;
   /*background: linear-gradient(to left, #3676ff, #3f45ff);*/
   background-color: #383c4c ;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   top: 0;
   /* Para pegar el nav a la parte superior */
-  left: 0;
-  border-end-start-radius: 20px;
-  border-end-end-radius: 20px;
+  left: 0;  
+  font-family: fantasy;
 }
 
 nav ul {
@@ -51,9 +50,8 @@ nav ul a {
   display: block;
   padding: 10px 15px;
   text-decoration: none;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: white;
-  font-weight: bold;
+  /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+  color: white;  
   transition: background-color 0.3s;
 }
 

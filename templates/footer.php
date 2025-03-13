@@ -6,7 +6,7 @@
     <div class="div-uno">
             <img src="../carpetaeuromanimagenes/footer.jpg" alt="">
         </div>
-        <div class="contactos" style="margin-top:30px;">
+        <div class="contactos contactosMenu" style="margin-top:30px;">
             <p class="hfT">
                Menu
             </p>
@@ -91,6 +91,6 @@
     </div>
 
     <div class="section-second">
-        <p>©2025 Todos los derechos reservados | <a href="www.euroman-ec.com" style="text-decoration: none;">www.euroman-ec.com</a></p>
+        <p>©2025 Todos los derechos reservados | <a href="https://euroman-ec.com" style="text-decoration: none;">www.euroman-ec.com</a></p>
     </div>
 </footer>

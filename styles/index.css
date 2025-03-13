@@ -145,10 +145,11 @@
     .slider .buttons{
         position: absolute;
         top: 45%;
-        left: 5%;
-        width: 90%;
+        left: 0%;
+        width: 100%;
         display: flex;
         justify-content: space-between;
+    
     }
     .slider .buttons button{
         width: 50px;
@@ -159,7 +160,19 @@
         border: none;
         font-family: monospace;
         font-weight: bold;
+        background-color:white;
     }
+    .slider .buttons a{
+        background-color:white;
+        padding:20px;
+        color:#383c4c;                                
+    }
+    .slider .buttons .ante{
+        clip-path: ellipse(49% 50% at 1% 50%);        
+    }
+    .slider .buttons .sigu{
+        clip-path: ellipse(49% 50% at 100% 50%);
+    }        
     .slider .dots{
         position: absolute;
         bottom: 10px;

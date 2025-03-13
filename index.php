@@ -27,7 +27,7 @@
         <!-------------MEN-------------->
         <?php include "./templates/menuinicio.php"; ?>
         <!-----------SECTION SLIDERS------------------->
-        <div style="margin-top:80px;" class="slider">
+        <div style="" class="slider">
             <div class="list">
                 <div class="item">
                     <img src="./carpetaeuromanimagenes/inicio/manimage1.png" alt="">

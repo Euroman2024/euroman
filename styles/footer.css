@@ -17,6 +17,8 @@ footer {
 footer .section-principal{
     display:flex;width:100%;flex-direction:row;justify-content: space-around;
 }
+
+
 footer .section-principal .div-uno{
     display:flex;width:20%;justify-content: center;
 }
@@ -39,6 +41,17 @@ footer .section-second p{
     color: #383c4c;text-align: center; margin-bottom: 0rem
 }
 
+@media screen and (max-width: 768px) {
+    footer .section-principal{
+        flex-direction: column;
+    }
+    footer .section-principal .div-uno{
+        display: none;
+    }
+    footer .contactosMenu{
+        display: none;
+    }
+}
 @media screen and (max-width: 768px){
     footer{
         flex-direction: column;
