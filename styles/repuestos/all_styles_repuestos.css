@@ -1,7 +1,7 @@
 .body2{      
   margin: 0;      
   margin-top: 100px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
   /*background:radial-gradient(circle, rgb(219, 225, 255), rgb(255, 255, 255)) ;*/
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.licdn.com/dms/image/C4D1BAQGHkvN5na3Q5Q/company-background_10000/0/1583733380340/man_camionesybuses_cover?e=2147483647&v=beta&t=uqLHFOKjoJI3bsYU3gqSsEGHxBa0a1Qha4Mle5XZ-9M') center;    
   background-size: cover; 
@@ -382,7 +382,7 @@ nav ul a {
   display: block;
   padding: 10px 15px;
   text-decoration: none;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: fantasy;
   color: #676767;
   transition: background-color 0.3s;
 }
