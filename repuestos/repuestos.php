@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Repuestos - Euroman</title>    
+    <title>Repuestos de Cabina - Euroman</title>    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../styles/repuestos/all_styles_repuestos.css">
     <link rel="stylesheet" href="../styles/menu.css">
@@ -83,7 +83,7 @@
     <?php include "../templates/menu.php"; ?>
     <div class="body3">
     <div style="display:flex;margin:0 auto;width:40%;height:90px;background-color:white;margin-top:150px;margin-bottom:50px;align-items:center;">
-            <h1 style="color:#383c4c;margin:0 auto;font-family:fantasy;">REPUESTOS DE TREN MOTRIZ</h1>
+            <h1 style="color:#383c4c;margin:0 auto;font-family:fantasy;">REPUESTOS TREN MOTRIZ</h1>
         </div>
        
         <div class="contenido2">

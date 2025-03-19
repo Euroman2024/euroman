@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Repuestos - Euroman</title>    
+    <title>Repuestos Tren Motriz - Euroman</title>    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../styles/repuestos/all_styles_repuestos.css">
     <link rel="stylesheet" href="../styles/menu.css">
@@ -152,7 +152,7 @@
          <!-- Card de Mecánica -->
          <div class="col-md-4 d-flex">
             <div class="card service-card w-100">
-                <img src="https://transporte-pesado.com/wp-content/uploads/2024/12/inbound9173243731484466307-e1734640321698-720x600.jpg" alt="Mecánica">
+                <img src="../carpetaeuromanimagenes/repuestos/tren.png" alt="Mecánica">
                 <div class="card-body">
                     <h5>Tren motriz</h5>
                     <p>Descubre nuestros repuestos de tren motriz especializados para tu camion MAN.</p>

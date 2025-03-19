@@ -11,22 +11,22 @@
                Menu
             </p>
             <span class="hf">
-                <a href="">Inicio</a>
+                <a href="./index.php">Inicio</a>
             </span>
             <span class="hf">
-                <a href="">Repuestos</a>
+                <a href="./repuestos/repuestos_principal.php">Repuestos</a>
             </span>
             <span class="hf">
-                <a href="">Camiones Nuevos</a>
+                <a href="./pages/camionesnuevos.php">Camiones Nuevos</a>
             </span>
             <span class="hf">
-                <a href="">Camiones Seminuevos</a>
+                <a href="./pages/seminuevos.php">Camiones Seminuevos</a>
             </span>
             <span class="hf">
-                <a href="">Servicios</a>
+                <a href="./pages/servicios.php">Servicios</a>
             </span>
             <span class="hf">
-                <a href="">Contactanos</a>
+                <a href="./pages/quienesSomos.php">Contactanos</a>
             </span>
         </div>
         <div class="contactos" style="margin-top:30px;">
