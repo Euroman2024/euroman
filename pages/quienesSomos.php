@@ -198,6 +198,17 @@
         .carousel-control-next {
             filter: invert(100%);
         }
+        @media screen and (max-width: 768px) {
+            .container-flex-container{
+                flex-direction: column;            
+            }
+        .section-container {
+            width: 90%;
+            margin: 0 auto ;
+             margin-top: 20px;
+        }
+
+        }
     </style>
 </head>
 

@@ -720,7 +720,22 @@
                         <img src="./carpetaeuromanimagenes/inicio/chasis/sistemadealumbrado.jpg" alt="">
                     </div>
                 </div>
-
+                <div class="element222">
+                    <p>SISTEMA SIGUIENTE</p>
+                </div>
+                <div class="lol" id="SISTEMA SIGUIENTE1">
+                    <div class="loldiv2">
+                        <img src="./carpetaeuromanimagenes/inicio/chasis/sistemadealumbrado.jpg" alt="">
+                    </div>
+                </div>
+                <div class="element222">
+                    <p>PROXIMO</p>
+                </div>
+                <div class="lol" id="PROXIMO1">
+                    <div class="loldiv2">
+                        <img src="./carpetaeuromanimagenes/inicio/chasis/sistemadealumbrado.jpg" alt="">
+                    </div>
+                </div>
                 <div class="element222">
                     <p>Repuesto - Chasis</p>
 
