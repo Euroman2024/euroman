@@ -105,7 +105,13 @@
             <h1 class="titletheme">Servicio Tecnico</h1>
         </div>
         
-
+        <div class="prymary">
+            <div class="prymary--second">
+                <div class="prymary--second card"></div>
+                <div class="prymary--second card"></div>
+                <div class="prymary--second card"></div>
+                <div class="prymary--second card"></div>
+            </div>
         <div class="second-1">
 
             <div class="third-2">
@@ -147,6 +153,8 @@
             </div>
 
         </div>
+        </div>
+
         <?php include "../templates/whatsapp.php"; ?>
         <?php include "../templates/footer.php"; ?>
         <script src="../scripts/whatsapp.js"></script>
