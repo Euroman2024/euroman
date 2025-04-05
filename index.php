@@ -721,21 +721,30 @@
                     </div>
                 </div>
                 <div class="element222">
-                    <p>SISTEMA SIGUIENTE</p>
+                    <p>MANDOS DE PUERTA</p>
                 </div>
-                <div class="lol" id="SISTEMA SIGUIENTE1">
+                <div class="lol" id="MANDOS DE PUERTA1">
                     <div class="loldiv2">
-                        <img src="./carpetaeuromanimagenes/inicio/chasis/sistemadealumbrado.jpg" alt="">
+                        <img src="./carpetaeuromanimagenes/inicio/chasis/modulopuertas.jpg" alt="">
                     </div>
                 </div>
                 <div class="element222">
-                    <p>PROXIMO</p>
+                    <p>MODULOS DE CONTROL</p>
                 </div>
-                <div class="lol" id="PROXIMO1">
+                <div class="lol" id="MODULOS DE CONTROL1">
                     <div class="loldiv2">
-                        <img src="./carpetaeuromanimagenes/inicio/chasis/sistemadealumbrado.jpg" alt="">
+                        <img src="./carpetaeuromanimagenes/inicio/chasis/modulosdecontrol.jpg" alt="">
                     </div>
                 </div>
+                <div class="element222">
+                    <p>SISTEMA DE ASISTENCIA</p>
+                </div>
+                <div class="lol" id="SISTEMA DE ASISTENCIA1">
+                    <div class="loldiv2">
+                        <img src="./carpetaeuromanimagenes/inicio/chasis/sistemadeasistencia.jpg" alt="">
+                    </div>
+                </div>                              
+
                 <div class="element222">
                     <p>Repuesto - Chasis</p>
 
